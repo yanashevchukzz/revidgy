@@ -1,0 +1,4628 @@
+/* External
+================================================== */
+/* External
+================================================== */
+/* Palette -------------------------------------------------------------------*/
+/* Transition ----------------------------------------------------------------*/
+.magictime {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.rotateLeft {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: rotateLeft;
+  animation-name: rotateLeft;
+}
+/* NOT USED --------------------------------------------------*/
+/* Effects -------------------------------------------------------------------*/
+/* NOT USED --------------------------------------------------*/
+/* Links ---------------------------------------------------------------------*/
+/* Backgrounds ---------------------------------------------------------------*/
+.button_bg {
+  background: #f3f3f3;
+  background: -webkit-linear-gradient(top, #ffffff 10%, #f3f3f3 100%);
+  background: -moz-linear-gradient(top, #ffffff 10%, #f3f3f3 100%);
+  background: -ms-linear-gradient(top, #ffffff 10%, #f3f3f3 100%);
+  background: -o-linear-gradient(top, #ffffff 10%, #f3f3f3 100%);
+}
+.button_disabled_bg {
+  background: #f3f3f3;
+  background: -webkit-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -moz-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -ms-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -o-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  color: #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.cta_bg {
+  background: #f3f3f3;
+  background: -webkit-linear-gradient(top, #f3f3f3 30%, #d3d3d3 120%);
+  background: -moz-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -ms-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -o-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  color: #3b3b3b;
+  border: 1px solid #e0e0e0;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+/* NOT USED --------------------------------------------------*/
+.catalogEntry_bg {
+  background: #4fabff;
+  background: -webkit-linear-gradient(top, #4fabff 0%, #effbff 120%);
+  background: -moz-linear-gradient(top, #4fabff 0%, #ffffff 120%);
+  background: -ms-linear-gradient(top, #4fabff 0%, #ffffff 120%);
+  background: -o-linear-gradient(top, #4fabff 0%, #ffffff 120%);
+}
+/* Notify --------------------------------------------------------------------*/
+.alert_base {
+  color: #ec424d;
+  border: solid 1px #ebccd1;
+  background-color: #fefbfb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+}
+.alert_info {
+  color: #ec424d;
+  border: solid 1px #ebccd1;
+  background-color: #fefbfb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border: solid 1px #faebcc;
+}
+.alert_msg {
+  color: #ec424d;
+  border: solid 1px #ebccd1;
+  background-color: #fefbfb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: solid 1px #d6e9c6;
+}
+/* Shapes --------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------*/
+/* MY ACCOUNT
+/* -----------------------------------------------------------------------------*/
+/* Sign-in Page
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+.sign_in_registration {
+  margin: 0 auto;
+  color: #3b3b3b;
+  line-height: 1.1em;
+}
+.sign_in_registration .sections {
+  background: url("") no-repeat left top;
+  background-size: 90%;
+}
+.sign_in_registration .sections .border {
+  border: solid 1px #e0e0e0;
+  min-width: 36%;
+  max-width: 36%;
+  float: right;
+}
+.sign_in_registration .title {
+  margin-top: 30px;
+}
+.sign_in_registration .title h1 {
+  padding: 0px;
+}
+.sign_in_registration .title h1 b {
+  font-weight: bold;
+}
+.sign_in_registration .title h1 .active {
+  color: #0072bc;
+  font-size: 80%;
+  margin-top: 12px;
+}
+.sign_in_registration .img_margin {
+  margin: 20px 20px 0 0;
+}
+.sign_in_registration .bottom_line {
+  border-bottom: 2px solid #ffd300 !important;
+}
+.sign_in_registration .myaccount_header {
+  color: #3b3b3b;
+  font-size: 0.875em;
+  padding: 0;
+  margin-top: 10px;
+}
+.sign_in_registration .registration_header {
+  color: #0072bc;
+  font-size: 150%;
+  font-weight: bold;
+}
+.sign_in_registration .notify {
+  display: inline-block;
+}
+.sign_in_registration .header_new,
+.sign_in_registration .header_return {
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  clear: both;
+}
+.sign_in_registration .header_return {
+  padding-top: 1px;
+}
+.sign_in_registration .header_return .remember_recover {
+  margin-top: 12px;
+}
+.sign_in_registration .header_return .remember_recover .input_label {
+  float: left;
+}
+.sign_in_registration .header_return .remember_recover .forgot_password_link_padding {
+  float: right;
+  padding-top: 2px;
+}
+.sign_in_registration .header_return .remember_recover .forgot_password_link_padding a {
+  padding: 4px;
+  color: #0072bc;
+}
+.sign_in_registration .header_return .remember_recover .forgot_password_link_padding a:hover {
+  text-decoration: underline;
+  background: #ffffff;
+}
+.sign_in_registration .footer_new {
+  clear: both;
+  margin-right: 6%;
+}
+.sign_in_registration .footer_new .resendActivationLink {
+  margin-bottom: 20px;
+}
+.sign_in_registration .footer_new .fa.pull-left {
+  margin-right: .2em;
+  padding: 4px 8px;
+}
+.sign_in_registration .circles {
+  margin: 20px;
+}
+.sign_in_registration .circles li {
+  float: left;
+  position: relative;
+  width: 25%;
+  z-index: 20;
+}
+.sign_in_registration .circles li i {
+  background-color: #ffea00;
+  border: solid 6px #0056a2;
+  color: #0056a2;
+  width: 64px;
+  height: 64px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.75em;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin: 0 auto;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  border-radius: 32px;
+}
+.sign_in_registration .circles li span {
+  color: #3b3b3b;
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+}
+.sign_in_registration .circles li.selected i {
+  background-color: #0056a2;
+  border: solid 4px #ffea00;
+  color: #ffffff;
+}
+.sign_in_registration .circles li.off i {
+  background-color: #e0e0e0;
+  border: solid 4px #8c8c8c;
+  color: #ffffff;
+}
+.sign_in_registration .circles:before,
+.sign_in_registration .circles:after {
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 50%;
+  left: 12.5%;
+  top: 35px;
+  border-top: 6px solid #0056a2;
+}
+.sign_in_registration .circles.last_path:after {
+  width: 25%;
+  left: 62.5%;
+  top: 29px;
+  border-top: 6px solid #8c8c8c;
+}
+.sign_in_registration .circles.completed:after {
+  border-top: 6px solid #0056a2;
+}
+.sign_in_registration input[type="text"],
+.sign_in_registration input[type="tel"],
+.sign_in_registration input[type="password"],
+.sign_in_registration input[type="email"],
+.sign_in_registration textarea {
+  margin: 2px 0 8px 0;
+  min-width: 280px;
+}
+.sign_in_registration select {
+  margin: 2px 0 8px 0;
+  min-width: 290px;
+}
+.sign_in_registration .content {
+  border-top: solid 1px #e0e0e0;
+  font-size: 0.75em;
+}
+.sign_in_registration .content .align {
+  padding: 16px 8px 0 0;
+}
+.sign_in_registration .content .align ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+}
+.sign_in_registration .content .align .rightside {
+  min-height: 240px;
+  background-size: 80%;
+}
+.sign_in_registration .content.padding {
+  padding: 16px 0;
+}
+.sign_in_registration .sign_in_container form {
+  margin: 0;
+}
+.sign_in_registration .sign_in_container form .button_primary {
+  margin: 10px 0;
+}
+.sign_in_registration .sign_in_container h3 {
+  font-size: 110%;
+  line-height: 2em;
+  margin: 0 0 16px 0;
+  height: 30px;
+  font-weight: 900;
+  padding: 0 0 8px 4px;
+  border-bottom: 2px solid #e0e0e0;
+}
+.sign_in_registration .sign_in_container h3.title {
+  font-weight: normal;
+  border: none;
+  height: auto;
+}
+.sign_in_registration .sign_in_container h3.title span {
+  font-weight: 700;
+}
+.sign_in_registration .sign_in_container .delivery_data {
+  margin-top: 30px;
+}
+.sign_in_registration .sign_in_container .nrow .column_label {
+  1display: inline-block;
+  1vertical-align: top;
+  1min-width: 200px;
+  1padding: 4px;
+  1margin: 2px 0 8px 0;
+}
+.sign_in_registration .sign_in_container .nrow input,
+.sign_in_registration .sign_in_container .nrow select,
+.sign_in_registration .sign_in_container .nrow textarea {
+  display: inline-block;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label {
+  display: inline-block;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label input[type="tel"] {
+  min-width: 150px;
+  max-width: 150px;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label.radio .checkbox_registration {
+  vertical-align: middle;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label.radio .checkbox_label_registration {
+  vertical-align: baseline;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label.number input[type="text"] {
+  min-width: 100px;
+  max-width: 100px;
+}
+.sign_in_registration .sign_in_container .nrow.inline_label.number .input_label {
+  margin-left: 38px;
+}
+.sign_in_registration .sign_in_containerRI form {
+  margin-top: -170px;
+}
+.sign_in_registration #stepsImages {
+  margin: 20px;
+  margin-top: -198px;
+}
+.sign_in_registration .thank_you {
+  text-align: center;
+}
+.sign_in_registration .thank_you h2 {
+  color: #0072bc;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+.sign_in_registration .thank_you p {
+  font-size: 1em;
+}
+.sign_in_registration .thank_you a {
+  margin: 12px;
+}
+.sign_in_registration .thank_you a.simpleButton {
+  display: inline-block;
+  padding: 12px;
+}
+.sign_in_registration .checkbox_label {
+  padding-left: 4px;
+  vertical-align: middle;
+}
+.sign_in_registration .checkbox_registration {
+  display: inline-block;
+}
+.sign_in_registration .checkbox_label_registration {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sign_in_registration a.link {
+  color: #0072bc;
+  padding: 4px 0;
+}
+.sign_in_registration a.link:hover {
+  background: #ffffff;
+  text-decoration: underline;
+}
+.sign_in_registration #resendActivationLink {
+  margin: 10px 0 40px 0;
+  padding: 4px 16px 8px 16px;
+  border-bottom: solid 1px #e0e0e0;
+  display: inline-block;
+}
+.sign_in_registration .myaccount_error {
+  display: block;
+  color: #ec424d;
+  border: solid 1px #ebccd1;
+  background-color: #fefbfb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+}
+.sign_in_registration .myaccount_success {
+  display: block;
+  color: #ec424d;
+  border: solid 1px #ebccd1;
+  background-color: #fefbfb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: solid 1px #d6e9c6;
+}
+@media (max-width: 800px) {
+  .sign_in_registration {
+  /*  padding: 8px 16px; */
+  }
+  .sign_in_registration .sections .border {
+    min-width: 100%;
+    max-width: 100%;
+    background-color: #ffffff;
+  }
+  .sign_in_registration input[type="text"],
+  .sign_in_registration input[type="tel"],
+  .sign_in_registration input[type="password"],
+  .sign_in_registration input[type="email"],
+  .sign_in_registration textarea {
+    min-width: 100%;
+  }
+  .sign_in_registration select {
+    min-width: 100%;
+  }
+  .sign_in_registration .leftside {
+    margin-bottom: 16px;
+  }
+  .sign_in_registration .rightside {
+    display: none;
+  }
+  .sign_in_registration .notify i {
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .sign_in_registration .header_new,
+  .sign_in_registration .header_return {
+    width: 100%;
+    max-width: none;
+  }
+  .sign_in_registration .myaccount_header {
+    min-height: inherit;
+  }
+  .sign_in_registration .leftside {
+    margin-bottom: 16px;
+  }
+  .sign_in_registration .content .align .rightside {
+    background-size: cover;
+  }
+}
+@media (min-width: 801px) and (max-width: 960px) {
+  .sign_in_registration .sections .border {
+    min-width: 50%;
+    max-width: 50%;
+    background-color: #ffffff;
+  }
+  .sign_in_registration .notify {
+    margin-right: 24px;
+  }
+}
+/* Content
+================================================== */
+/* Styles -------------------------------------*/
+.my_account {
+  width: 100%;
+  background-color: #ffffff;
+}
+.my_account.sign_in_registration .content {
+  border-top: none;
+}
+.my_account .body {
+  min-height: 150px;
+}
+.my_account .body .form_2column {
+  padding: 16px 8px;
+}
+.my_account .main_header {
+  margin: 8px 0 0 0;
+}
+.my_account .main_header h2 {
+  padding: 8px;
+  margin: 0;
+  border-bottom: solid 2px #ffd300;
+}
+.my_account .myaccount_header {
+  font-weight: bold;
+  font-size: 125%;
+  text-transform: uppercase;
+}
+.my_account .addrbook_header {
+  margin: 8px 0;
+}
+.my_account .addrbook_header > * {
+  display: inline-block;
+  margin-top: 10px;
+}
+.my_account .addrbook_header label {
+  color: #999999;
+  font-weight: bold;
+  margin: 0 5px 0 12px;
+}
+.my_account .addrbook_header select {
+  margin: 0;
+}
+.my_account .headingtext {
+  border-top: solid 1px #e0e0e0;
+}
+.my_account .status_msg {
+  padding: 1px 4px;
+  border-bottom: solid 1px #3b3b3b;
+  color: #3b3b3b;
+  margin-bottom: 10px;
+}
+.my_account .status_msg .description {
+  font-weight: bold;
+}
+.my_account .content {
+  margin-bottom: 30px;
+}
+.my_account .content .checkBox_position {
+  text-transform: lowercase;
+}
+.my_account .content .checkBox_position:first-letter {
+  text-transform: capitalize;
+}
+.my_account .form_2column.two-col .ncolumn.oneline {
+  min-width: 100%;
+}
+.my_account .form_2column.two-col .ncolumn.oneline .column_label {
+  display: inline-block;
+}
+.my_account.sign_in_registration .disabled input {
+  border-color: transparent;
+  padding: 2px 8px;
+}
+.myaccount_subheader,
+.checkout_subheader {
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .my_account .addrbook_header {
+    margin: 8px 0 0 6px;
+  }
+  .my_account .addrbook_header > p {
+    margin-bottom: 5px;
+  }
+  .my_account .addrbook_header label {
+    margin: 0;
+  }
+}
+/* General table
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+div.info_table {
+  margin-bottom: 8px;
+  padding: 0 8px;
+}
+div.info_table div.row {
+  margin-bottom: 8px;
+}
+div.info_table div.row:last-child {
+  margin-bottom: 0px;
+}
+div.info_table div.row.highlight {
+  background: #ffea00;
+  color: #0072bc;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 130%;
+  display: inline-block;
+}
+div.info_table div.row.legend {
+  font-size: 80%;
+  margin-top: 8px;
+}
+div.info_table div.row.legend .info_content {
+  color: #3b3b3b;
+}
+div.info_table div.row div.label,
+div.info_table div.row div.info_content,
+div.info_table div.row div.label1,
+div.info_table div.row div.label2,
+div.info_table div.row div.info_content1 {
+  float: left;
+  text-align: left;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+div.info_table div.row div.info_content {
+  color: #0072bc;
+}
+div.info_table.my_account > div {
+  padding: 8px;
+}
+@media (max-width: 480px) {
+  div.info_table div.row div.label {
+    display: none;
+  }
+  div.info_table div.row div.info_content {
+    width: 100%;
+  }
+}
+.checkout_subheader:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Order details
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+.order_status_table {
+  width: 100%;
+  margin: 16px 0 8px 0;
+}
+.order_status_table .column_heading {
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e0e0e0;
+}
+.order_status_table .column_heading th {
+  padding: 8px 4px;
+}
+.order_status_table .column_heading.inline {
+  display: none;
+}
+.order_status_table tr {
+  border-bottom: 1px dotted #e0e0e0;
+}
+.order_status_table tr:last-child {
+  border-bottom: none;
+}
+.order_status_table tr td {
+  padding: 8px 4px;
+  vertical-align: bottom;
+}
+.order_status_table tr td span.price {
+  padding-left: 12px;
+  display: inline-block;
+}
+.order_status_table tr td span.price:first-letter {
+  margin-right: 4px;
+}
+.order_status_table tr td .not_available {
+  color: #999999;
+}
+.order_status_table tr td .number {
+  margin-right: 4px;
+}
+.order_status_table tr td .sucess {
+  color: #3c763d;
+}
+.order_status_table tr td.order_number_column_1 a {
+  color: #0072bc;
+  padding: 2px;
+  font-size: 90%;
+}
+.order_status_table tr td.order_number_column_1 a:after {
+  content: "\f105";
+  font-family: FontAwesome;
+  padding-left: 4px;
+}
+.order_status_table tr td.order_number_column_1 a:hover {
+  border-bottom: solid 1px #3b3b3b;
+}
+@media (max-width: 600px) {
+  .order_status_table.two-col thead {
+    display: none;
+  }
+  .order_status_table.two-col tr {
+    width: 100%;
+    border-top: solid 3px #3b3b3b;
+  }
+  .order_status_table.two-col tr td {
+    display: block;
+    padding: 12px 8px;
+    margin: 8px 0;
+    border-bottom: #e6e6e6;
+  }
+  .order_status_table.two-col tr td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 60%;
+  }
+  .order_status_table.two-col tr td:first-child {
+    background-color: #8c8c8c;
+    color: #f3f3f3;
+    margin-top: 0;
+  }
+  .order_status_table.two-col tr td:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}
+/* Registration
+================================================== */
+/* Styles -------------------------------------*/
+.form_2column {
+  padding: 0;
+}
+.form_2column .align {
+  padding-bottom: 10px;
+}
+.form_2column .ncolumn {
+  width: 100%;
+  margin-bottom: 8px;
+  float: left;
+}
+.form_2column .ncolumn select {
+  max-width: 325px;
+}
+.form_2column .priceRangeContainer div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.form_2column .priceRangeContainer div.range > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.form_2column .priceRangeContainer div.range span.inputbox {
+  margin-left: 4px;
+}
+.form_2column .priceRangeContainer div.range span.inputbox input {
+  max-width: 90px;
+}
+.form_2column.two-col .nrow {
+  clear: both;
+}
+.form_2column.two-col .ncolumn {
+  min-width: 320px;
+  max-width: 400px;
+}
+.form_2column.two-col .no-float {
+  float: none;
+}
+.form_2column.two-col .ncolumn.short {
+  min-width: 300px;
+  max-width: 340px;
+}
+.form_2column.two-col .ncolumn.large {
+  min-width: 800px;
+  max-width: 100%;
+}
+.form_2column.two-col .ncolumn.large input[type="text"],
+.form_2column.two-col .ncolumn.large textarea {
+  min-width: auto;
+}
+.form_2column.two-col .ncolumn.stack {
+  min-width: 33%;
+  max-width: 33%;
+}
+.form_2column.two-col .ncolumn.phone input[type="tel"] {
+  min-width: 120px;
+  max-width: 140px;
+}
+.form_2column.two-col .ncolumn.date {
+  min-width: 120px;
+  max-width: 140px;
+}
+.form_2column.two-col .ncolumn.date select {
+  min-width: 120px;
+  max-width: 120px;
+}
+.form_2column.two-col .ncolumn.number input {
+  min-width: 120px;
+  max-width: 120px;
+}
+.form_2column.two-col .column_block {
+  display: inline-block;
+  margin: 0 12px;
+}
+.form_2column.two-col .input_label.radio {
+  display: inline-block;
+  margin: 0 4px;
+}
+.form_2column.two-col .input_label.radio .checkbox_registration {
+  vertical-align: middle;
+}
+.form_2column.two-col .input_label.radio .checkbox_label_registration {
+  vertical-align: baseline;
+}
+.form_2column.one-line .nrow .column_label {
+  float: left;
+  min-width: 180px;
+  margin-top: 8px;
+}
+.form_2column.one-line .ncolumn {
+  min-width: 100%;
+  max-width: 100%;
+}
+.form_2column.two-block .ncolumn {
+  min-width: 50%;
+  max-width: 50%;
+}
+.form_2column.three-block .ncolumn {
+  min-width: 33%;
+  max-width: 33%;
+}
+.button_footer_line {
+  clear: both;
+  padding: 12px;
+}
+.button_footer_line .button_primary.large {
+  max-width: 300px;
+}
+.button_footer_line.no-padding {
+  padding: 0;
+}
+.button_footer_line .message {
+  display: block;
+}
+.button_footer_line .message span {
+  margin: 2px;
+  padding: 4px 8px;
+  font-size: 80%;
+  border: none;
+  border-bottom: dotted 2px #3c763d;
+  color: #3c763d;
+}
+@media (max-width: 800px) {
+  .input_label {
+    display: inline-flex;
+  }
+  .form_2column .ncolumn {
+    margin-bottom: 16px;
+  }
+  .form_2column .ncolumn select {
+    max-width: 100%;
+  }
+  .form_2column.two-col .ncolumn {
+    min-width: 300px;
+    max-width: 100%;
+  }
+  .form_2column.two-col .ncolumn.short {
+    min-width: 300px;
+    max-width: 100%;
+  }
+  .form_2column.two-col .ncolumn.large {
+    min-width: 300px;
+    max-width: 100%;
+  }
+  .form_2column.two-col .ncolumn.large input[type="text"],
+  .form_2column.two-col .ncolumn.large textarea {
+    min-width: 300px;
+  }
+  .form_2column.two-col .ncolumn.stack {
+    min-width: 33%;
+    max-width: 33%;
+  }
+  .form_2column.two-col .ncolumn.phone input[type="tel"] {
+    min-width: calc(100% -  120px);
+    max-width: calc(100% -  120px);
+  }
+  .form_2column.two-col .ncolumn.date {
+    min-width: 120px;
+    max-width: 140px;
+  }
+  .form_2column.two-col .ncolumn.date select {
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .form_2column.two-col .ncolumn.number input {
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .form_2column.two-col .column_block {
+    margin: 0;
+    width: 48%;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .form_2column.three-block .ncolumn {
+    min-width: 33%;
+    max-width: 33%;
+  }
+}
+@media (max-width: 650px) {
+  #shopcartAddressForm > #box_1 {
+    margin-bottom: -30px;
+  }
+}
+/* GenericError.jsp
+================================================== */
+/* Styles -------------------------------------*/
+.generic_error_container {
+  padding: 100px !important;
+  min-height: 300px !important;
+  float: none !important;
+}
+.generic_error_container #errorPage {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.generic_error_container #errorPage .logo {
+  margin-right: 20px;
+  float: left;
+}
+.generic_error_container #errorPage h1 {
+  padding: 20px 0 10px 0;
+  margin-bottom: 24px;
+  font-size: 150%;
+  margin: 10px 0;
+}
+.generic_error_container #errorPage .info span {
+  display: block;
+}
+.generic_error_container #errorPage .info a {
+  margin-top: 16px;
+}
+.generic_error_developers {
+  font-weight: bold;
+}
+/* -----------------------------------------------------------------------------*/
+/* SHOPPING CART
+/* -----------------------------------------------------------------------------*/
+/* Box
+================================================== */
+/* Styles -------------------------------------*/
+#box {
+  min-height: 400px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+#box .main_header h1 {
+  font-weight: 700;
+  min-height: 30px;
+  margin-bottom: 30px;
+}
+#box .my_account .main_header {
+  padding: 0;
+}
+#box .order_link {
+  color: #999999;
+}
+#box.shopping_cart_box {
+  font-size: .875em;
+  line-height: 130%;
+}
+#box .order_details h2,
+#box .shipping_address h2,
+#box .shipping_address_content h2,
+#box .payment_options h2 {
+  line-height: 2em;
+  margin: 0;
+  text-transform: uppercase;
+  height: 30px;
+  font-weight: 600;
+}
+ #box .payment_options h2{color: #005ca7;}
+ #box .payment_options h2 span{font-size: 30px;    text-transform: none;    font-weight: 600;}
+.subtitle1{display: block;width: 100%;box-sizing: border-box;margin-top: 5px;padding-left: 16px;}
+#box .shipping_address h2{line-height: normal;height: auto;margin-top: 30px;}
+.checkoutPageLayout #checkout_crumb .crumb{position: absolute;top: -70px;z-index: 200;left: 50%;transform: translate(-50%);}
+/* BreadCrumb Checkout
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+#checkout_crumb {
+  border-top: 2px solid #ffd300;
+}
+/* cambios en los pasos del checkout */
+#checkout_crumb .crumb {
+  float: right;
+  width: 40%;
+  padding-left: 60px;
+}
+#checkout_crumb .crumb:before {
+  content: '';
+  display: block;
+  width: 66%;
+  position: relative;
+  top: 14px;
+  left: 16.5%;
+  right: 16.5%;
+  border-top: 2px solid #f3f3f3;
+}
+#checkout_crumb .crumb li {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 20%;
+  font-size: 90%;
+  font-weight: bold;
+}
+#checkout_crumb .crumb li i {
+  background-color: #c7c7c7;
+  height: 28px;
+  width: 28px;
+  line-height: 180%;
+  display: inline-block;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  color: #ffffff;
+}
+#checkout_crumb .crumb li span {
+  display: block;
+  color: #e0e0e0;
+}
+#checkout_crumb .crumb li.step_on span {
+  color: #006dbc;
+}
+#checkout_crumb .crumb li.step_on i {
+  background-color: #006dbc;
+  color: #f3f3f3;
+}
+#checkout_crumb .crumb li.step_off span {
+  color: #eaeaea;
+}
+#checkout_crumb .crumb li.step_off i {
+  background-color: #eaeaea;
+}
+#checkout_crumb .crumb li.step_off a span {
+  color: rgba(199, 199, 199, 0.99);
+}
+#checkout_crumb .crumb li.step_off a i {
+  background-color: rgba(199, 199, 199, 0.99);
+}
+#checkout_crumb .crumb li a {
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#checkout_crumb .crumb li a:hover span {
+  color: #006dbc;
+}
+#checkout_crumb .crumb li a:hover i {
+  background: #006dbc;
+}
+#checkout_crumb .crumb.final_trail {
+  float: left;
+  padding-left: 0;
+}
+#checkout_crumb .crumb.guest:before {
+  left: 12.5%;
+  right: 12.5%;
+  width: 75%;
+}
+/* cambios en los pasos del checkout */
+#checkout_crumb .crumb.guest li {
+  width: 20%;
+}
+#checkout_crumb .checkout_crumb h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  min-height: 30px;
+  float: left;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a {
+  font-size: 0.813em;
+  padding: 0px 10px;
+  display: block;
+  float: right;
+  margin-top: 12px;
+  transition: all 0.2s ease 0s;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a:hover {
+  color: #0072bc;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a:hover:after {
+  color: #235aa9;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a:before,
+#checkout_crumb .checkout_crumb .breadcrumb_item a:after {
+  font-family: FontAwesome;
+  font-size: 125%;
+  padding: 4px 6px;
+  color: #999999;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a:before {
+  content: "\f054";
+  font-size: 80%;
+  color: #0072bc;
+}
+#checkout_crumb .checkout_crumb .breadcrumb_item a:after {
+  content: "\f07a";
+}
+@media (max-width: 600px) {
+  #checkout_crumb .crumb {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 12px;
+  }
+  #checkout_crumb .checkout_crumb h1 {
+    margin-bottom: 8px;
+    padding: 0;
+  }
+  #checkout_crumb .checkout_crumb .breadcrumb_item {
+    display: block;
+  }
+}
+@media (min-width: 600px) and (max-width: 1025px) {
+  #checkout_crumb .crumb {
+    padding-left: 60px;
+    font-size: 75%;
+  }
+  #checkout_crumb .crumb > li {
+    font-size: 100%;
+  }
+  #checkout_crumb .crumb.guest {
+    width: 45%;
+  }
+}
+/* ShopCartDisplay & Shipping SIZES
+================================================== */
+/* Styles -------------------------------------*/
+.order_details,
+.shipping_address,
+.payment_options {
+  width: 66%;
+}
+.total_breakdown {
+  width: 31.7%;
+}
+/* cambios en los pasos del checkout */
+.orderItemDisplay #checkout_crumb .crumb li {
+ /* font-size: 1.5em;*/
+  margin: 4px 0 0 0;
+  padding: 0 0 4px 16px;
+  color: #235aa9;
+}
+#shipping_address .shipping_method_summary {
+  width: 66%;
+}
+#OrderItemPagingDisplay,
+#shipping_address #total_breakdown {
+  width: 33%;
+}
+@media (max-width: 650px) {
+  .order_details,
+  .shipping_address,
+  .payment_options {
+    width: 100%;
+  }
+  .order_details .title,
+  .shipping_address .title,
+  .payment_options .title,
+  .order_details label,
+  .shipping_address label,
+  .payment_options label {
+    margin-bottom: 4px;
+  }
+  .total_breakdown {
+    width: 100%;
+    padding-left: 8px;
+  }
+}
+@media (min-width: 651px) and (max-width: 1025px) {
+  .order_details,
+  .shipping_address,
+  .payment_options {
+    width: 64%;
+  }
+  .total_breakdown {
+    width: 36%;
+    padding: 0px 10px 0 0px !important;
+  }
+}
+@media (max-width: 1025px) {
+  .order_item .payment_price {
+    font-size: 93%;
+  }
+  .order_item .payment_price dd {
+    padding-left: 4px !important;
+  }
+  .order_item .item-quantity {
+    font-size: 90%;
+  }
+  .order_item .item-quantity  > #qty_1 {
+    padding: 4px 2px 4px 2px;
+  }
+  .order_item .img_title {
+    font-size: 90%;
+  }
+}
+/* ShopCartDisplay
+================================================== */
+/* Styles -------------------------------------*/
+.order_details {
+  float: left;
+  padding: 0 16px;
+}
+#order_details {
+  clear: both;
+  margin-bottom: 10px;
+}
+#order_details .img {
+  float: left;
+}
+#order_details .img_title {
+  float: right;
+  width: calc(100% -  100px);
+  padding-left: 10px;
+  color: #8c8c8c;
+  font-size:14px;
+}
+#order_details .img_title span,
+#order_details .img_title p {
+  line-height: 140%;
+}
+#order_details .img_title a {
+  display: inline-block;
+}
+#order_details td {
+  padding: 8px 0px;
+  text-align: left;
+  vertical-align: top;
+}
+#order_details td .remove_address_link,.deleteCard {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 8px 4px;
+  padding-left: 1px;
+  border: solid 1px #ec424d;
+  color: #ec424d;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+}
+
+#order_details td .remove_address_link:before,
+.deleteCard:before{
+  content: "\f00d";
+  font-family: FontAwesome;
+}
+#order_details td .remove_address_link:hover,.deleteCard:hover{
+  background-color: #f2dede;
+}
+#order_details td.QTY {
+  padding-right: 30px;
+  padding-top: 15px;
+}
+#order_details th {
+  vertical-align: top;
+  padding: 0px;
+}
+#order_details th.th_align_left_normal {
+  text-align: left;
+  padding: 12px 0px;
+}
+#order_details th.th_align_left_normal div.sku {
+  font-size: 90%;
+  margin: 4px 0;
+  color: #999999;
+  display: none;
+}
+#order_details th.th_align_left_normal p {
+  margin-top: 8px;
+  font-size: 120%;
+}
+#order_details th.th_align_left_normal .order_link {
+  margin-top: 4px;
+  display: block;
+  padding: 2px;
+  color: #006dbc;
+  text-align: center;
+}
+#order_details th.th_align_left_normal .order_link:hover {
+  text-decoration: underline;
+}
+#order_details tr.order_item {
+  border-bottom: 1px solid #e0e0e0;
+}
+#order_details tr.order_item td {
+  text-align: center;
+}
+#order_details tr.order_item td.avail {
+  width: 90px;
+}
+#order_details tr.order_item td.each {
+  width: 200px;
+  text-align: left;
+}
+#order_details tr.order_item td.each dl {
+  padding: 4px;
+  color: #030303;
+}
+#order_details tr.order_item td.each dl > * {
+  float: left;
+}
+#order_details tr.order_item td.each dl dt {
+  min-width: 100px;
+  font-size: 95%;
+}
+#order_details tr.order_item td.each dl dd {
+  padding-left: 16px;
+}
+#order_details tr.order_item td.each .coppel dl {
+  color: #8c8c8c;
+}
+#order_details tr.order_item td.total {
+  text-align: right;
+}
+#order_details tr.order_item td.last {
+  border-left: solid 1px #e0e0e0;
+  border-right: solid 1px #e0e0e0;
+}
+#order_details tr.summary_title td {
+  font-size: 110%;
+  text-transform: uppercase;
+  padding: 0 0 1px 4px;
+  height: 30px;
+  line-height: 2em;
+  border-bottom: solid 2px #e0e0e0;
+  font-weight: 600;
+}
+#order_details tr.nested {
+  border-top: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
+}
+#order_details tr.nested th {
+  padding: 10px 0;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 85%;
+  font-weight: bold;
+}
+#order_details div[id^="WC_OrderItemDetailsf_div_1_"],
+#order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"],
+#order_details div[id^="WC_OrderItemDetails_div_1_"],
+#order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"],
+#order_details div[id^="WC_MSOrderItemDetails_div_1_"] {
+  width: 100px;
+}
+#order_details div[id^="WC_OrderItemDetailsf_div_1_"] img,
+#order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"] img,
+#order_details div[id^="WC_OrderItemDetails_div_1_"] img,
+#order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"] img,
+#order_details div[id^="WC_MSOrderItemDetails_div_1_"] img {
+  width: 100%;
+  border: solid 1px #e0e0e0;
+}
+#order_details div[id^="WC_OrderItemDetailsf_div_1_"] img:hover,
+#order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"] img:hover,
+#order_details div[id^="WC_OrderItemDetails_div_1_"] img:hover,
+#order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"] img:hover,
+#order_details div[id^="WC_MSOrderItemDetails_div_1_"] img:hover {
+  border-color: #999999;
+}
+#OrderItemPagingDisplay #order_details .img_title {
+  width: calc(100% -  60px);
+}
+#OrderItemPagingDisplay #order_details .img_title a {
+  display: inline-block;
+  color: #8c8c8c;
+}
+#OrderItemPagingDisplay #order_details .img_title a:hover {
+  border-bottom: solid 1px #999999;
+}
+#OrderItemPagingDisplay #order_details th.th_align_left_normal .little_title {
+  font-size: 70%;
+}
+#OrderItemPagingDisplay #order_details tr.order_item td.each {
+  width: auto;
+  font-weight: bold;
+}
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetailsf_div_1_"],
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"],
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetails_div_1_"],
+#OrderItemPagingDisplay #order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"],
+#OrderItemPagingDisplay #order_details div[id^="WC_MSOrderItemDetails_div_1_"] {
+  width: 60px;
+}
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetailsf_div_1_"] img:hover,
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"] img:hover,
+#OrderItemPagingDisplay #order_details div[id^="WC_OrderItemDetails_div_1_"] img:hover,
+#OrderItemPagingDisplay #order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"] img:hover,
+#OrderItemPagingDisplay #order_details div[id^="WC_MSOrderItemDetails_div_1_"] img:hover {
+  border-color: #e0e0e0;
+}
+.total_breakdown {
+  float: right;
+  padding: 0 0 0 60px;
+}
+.total_breakdown #customers_new_or_returning {
+  margin-top: 40px;
+}
+.total_breakdown #customers_new_or_returning .new,
+.total_breakdown #customers_new_or_returning .returning {
+  padding: 8px 12px;
+  background-color: #ffffff;
+}
+.total_breakdown #customers_new_or_returning .new h3,
+.total_breakdown #customers_new_or_returning .returning h3 {
+  font-size: 110%;
+  font-weight: 900;
+  padding: 0 0 8px 4px;
+  border-bottom: solid 1px #ffd300;
+  margin: 0 -12px 16px -12px;
+  color: #0056a2;
+}
+.total_breakdown #customers_new_or_returning .new p,
+.total_breakdown #customers_new_or_returning .returning p {
+  padding: 4px 0 12px 0;
+  display: none;
+}
+.total_breakdown #customers_new_or_returning .new input[type="text"],
+.total_breakdown #customers_new_or_returning .returning input[type="text"],
+.total_breakdown #customers_new_or_returning .new input[type="password"],
+.total_breakdown #customers_new_or_returning .returning input[type="password"],
+.total_breakdown #customers_new_or_returning .new input[type="email"],
+.total_breakdown #customers_new_or_returning .returning input[type="email"] {
+  width: 90%;
+}
+.total_breakdown #customers_new_or_returning .new a.myaccount_link,
+.total_breakdown #customers_new_or_returning .returning a.myaccount_link {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 90%;
+  color: #0072bc !important;
+}
+.total_breakdown #customers_new_or_returning .new a.myaccount_link:hover,
+.total_breakdown #customers_new_or_returning .returning a.myaccount_link:hover {
+  text-decoration: underline;
+  background: #ffffff;
+}
+.total_breakdown #customers_new_or_returning .returning {
+  margin-top: 30px;
+}
+.total_breakdown .button {
+  margin: 0 auto;
+  display: block;
+  max-width: 240px;
+}
+.total_breakdown .button div {
+  padding-top: 4px;
+  display: block;
+}
+.total_breakdown .order_details {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+.total_breakdown #order_details .img_title {
+  width: calc(100% -  60px);
+}
+.total_breakdown #order_details .img_title a {
+  color: #0072bc;
+  margin-right: 16px;
+  font-size: 14px;
+}
+.total_breakdown #order_details td {
+  padding-top: 12px;
+}
+.total_breakdown #order_details td .remove_address_link,.deleteCard {
+  margin: 2px 0 0 8px;
+  line-height: 16px;
+  height: 20px;
+  width: 20px;
+  padding-left: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.total_breakdown #order_details th.th_align_left_normal .order_link {
+  display: none;
+}
+.total_breakdown #order_details th.th_align_left_normal .little_title {
+  font-size: 70%;
+}
+.total_breakdown #order_details tr.order_item td.each {
+  width: auto;
+  font-weight: bold;
+}
+.total_breakdown #order_details div[id^="WC_OrderItemDetailsf_div_1_"],
+.total_breakdown #order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"],
+.total_breakdown #order_details div[id^="WC_OrderItemDetails_div_1_"],
+.total_breakdown #order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"],
+.total_breakdown #order_details div[id^="WC_MSOrderItemDetails_div_1_"] {
+  width: 60px;
+}
+#total_breakdown #promotions {
+  float: left;
+  /* Dev: to maintain the tab order */
+
+  padding-right: 20px;
+  padding-top: 3px;
+  display: none;
+}
+#total_breakdown #promotions .promotion_code {
+  display: inline-block;
+  /* float:left; */
+
+  height: 23px;
+  padding-right: 4px;
+  padding-top: 3px;
+  vertical-align: middle;
+}
+#total_breakdown #promotions .promotion_input {
+  display: inline-block;
+  /* float:left; */
+
+  height: 23px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+#total_breakdown #promotions .promotion_input input {
+  height: 16px;
+  font-family: Arial;
+  color: #4d4d4d;
+}
+#total_breakdown #promotions .promotion_button {
+  display: inline-block;
+  /* float:left; */
+
+  vertical-align: middle;
+  /* height: 23px; */
+
+}
+#total_breakdown #promotions .promotion_button > br {
+  display: none;
+}
+#total_breakdown #promotions .promotion_used {
+  clear: both;
+  float: left;
+  padding-right: 5px;
+  text-align: left;
+}
+#total_breakdown #promotions .promotion_delete {
+  float: right;
+  width: 80px;
+  padding-left: 3px;
+  text-align: left !important;
+}
+#total_breakdown #order_total {
+  width: 100%;
+}
+#total_breakdown #order_total tr td {
+  font-size: 1em;
+  padding: 6px 4px;
+}
+.checkoutPageLayout #total_breakdown #order_total tr td{padding:10px 4px 0;}
+.checkoutPageLayout #total_breakdown #order_total tr td.descuento{padding-bottom: 8px;padding-top: 12px;}
+#total_breakdown #order_total tr td.total_figures {
+  text-align: right;
+}
+#total_breakdown #order_total tr.summary_title td {
+  font-size: 110%;
+  text-transform: uppercase;
+  padding: 0 0 1px 4px;
+  height: 30px;
+  line-height: 2em;
+  border-bottom: solid 2px #e0e0e0;
+  font-weight: 600;
+}
+#total_breakdown #order_total tr.cash_title td {
+  padding-top: 16px;
+}
+#total_breakdown #order_total tr.total_title {
+  border-top: solid 1px #999999;
+}
+.checkoutPageLayout #total_breakdown #order_total tr.total_title{border-top:solid 2px #e0e0e0}
+#total_breakdown #order_total tr.total_title td {
+  padding-top: 12px;
+  color: #030303;
+  font-weight: bold;
+}
+#total_breakdown #order_total tr.coppel_title td {
+  color: #235aa9;
+  font-weight: bold;
+}
+#total_breakdown #order_total tr.delivery_title td {
+  font-weight: normal;
+}
+#total_breakdown #order_total tr.delivery_title td.total_figures {
+  color: #90ae01;
+  font-weight: bold;
+}
+.shopping_cart_box .button_footer_line {
+  float: left;
+  width: 66%;
+}
+.checkoutPageLayout .shopping_cart_box .button_footer_line {
+    float: left;
+    width: 100%;
+    padding: 5px 0 0;
+}
+.checkoutPageLayout .shopping_cart_box .button_footer_line .button_primary{
+    background: #006faf;
+    float: left;
+	font-size: 17px;
+	font-family: "Lato",sans-serif;
+	border-width: 2px;
+}
+.checkoutPageLayout .shopping_cart_box .button_footer_line .button_primary:hover{
+    box-shadow: none;
+}
+.checkoutPageLayout .shopping_cart_box .button_footer_line  .button_primary>.button_text,
+.checkoutPageLayout .shopping_cart_box .button_footer_line2  .button_primary>.button_text{border: none;padding: 0 52px;font-weight: 300;transition: all 0.3s ease 0s}
+.checkoutPageLayout .shopping_cart_box .button_footer_line  .button_primary>.button_text:hover,
+.checkoutPageLayout .shopping_cart_box .button_footer_line2  .button_primary>.button_text:hover{background-color: #045e9a ;}
+.checkoutPageLayout #payU_CheckOut .amount-info{display: none;}
+.checkoutPageLayout.resumenCompra #shipping_address{width: 33%;float: right;    padding: 0 0 0 60px;}
+.checkoutPageLayout.resumenCompra #shipping_address #total_breakdown,.resumenCompra #shipping_address .shipping_address{width: 100%;padding: 0;margin: 0;}
+.checkoutPageLayout.resumenCompra #shipping_address #total_breakdown{margin: 42px 0 0 0;}
+.checkoutPageLayout.resumenCompra #OrderItemPagingDisplay{padding: 0;width: 100%;}
+.checkoutPageLayout.resumenCompra span.main_header_text{font-weight: bold;}
+.checkoutPageLayout.resumenCompra div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1{padding-left: 5px;}
+.checkoutPageLayout.resumenCompra .payment_options .payment_options_content{padding-top: 0}
+.checkoutPageLayout.resumenCompra #box .shipping_address h2 {margin-top: 38px;}
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line  .button_primary>.button_text,
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line2  .button_primary>.button_text{border: none;padding: 0 57px;}
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line .button_primary,
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line2 .button_primary{background: #006faf;    border: 2px solid #0064a7;}
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line  .button_primary>.button_text,
+.checkoutPageLayout.resumenCompra .shopping_cart_box .button_footer_line2  .button_primary>.button_text{border: none;padding: 10px 52px;font-weight: 500;}
+.checkoutPageLayout.resumenCompra .subtitle2{font-size: 18px;text-transform: uppercase;font-weight: bold;padding-top: 50px;display: inline-block;}
+.checkoutPageLayout.resumenCompra #WC_SingleShipmentSummary_div_7{margin: 0;padding: 0;font-size: 30px;}
+.checkoutPageLayout.resumenCompra #shipping_address .shipping_address_content{margin-top: 13px;padding-top: 33px;border-top: 1px solid black;padding-bottom: 0;width: 100%;}
+.checkoutPageLayout.resumenCompra #shipping_address .shipping_address_content .data_current{margin-bottom: 0;}
+.checkoutPageLayout.resumenCompra #order_details .img_title span{color: #0776be;}
+.checkoutPageLayout.resumenCompra #order_details td .remove_address_link{    padding: 0;margin: 0 4px;}
+.checkoutPageLayout.checkoutGracias .dvFooterInfo,.checkoutPageLayout.checkoutGracias .legal-block,
+.checkoutPageLayout.checkoutGracias #footer #footerRow1 .trust{display: block;}
+.checkoutPageLayout.checkoutGracias  #checkout_crumb .crumb{position: inherit;top: inherit;z-index: inherit;left: inherit;transform: inherit;margin-top: 12px;}
+.checkoutPageLayout #initialNumber_Checkout{width: 83%;float: left;padding-left: 17%;}
+.checkoutPageLayout #noInitialmentPayment_Checkout{width: 83%;float: left;padding-left: 17%;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container{padding: 22px 35px 40px 18px;color: #808080;text-align: left}
+.checkoutPageLayout .contImport{width: 17%;}
+.coppel_number{margin-top: 18px;}
+#coppelClienteNumber1_1{width: 55.5%;margin: 0;font-style: italic;padding: 4px 11px;color: #bfbfbf;height:32px;box-sizing: border-box;float: left;font-size: 15px}
+#initialmentPayment1_2{width: 55.5%;margin: 0;font-style: italic;padding: 4px 11px;color: #bfbfbf;height:32px;box-sizing: border-box;float: left;font-size: 15px}
+
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .coppel_number .button_primary{box-shadow: none;width: calc(44.5% - 31px);min-width: inherit;margin-left: 31px;float: left;display: inline-block;background: #006faf;position:relative;top:-6px;border:1px solid #0064a7}
+.checkoutPageLayout .payment_options{width: 68.3%;padding: 0;box-sizing: border-box;padding-left: 20px;}
+.checkoutPageLayout .coppel_number .button_primary>.button_text{padding-top: 0;margin-top: 0;line-height: 34px;border:none;font-size: 17px;font-weight: 300;transition: all 0.3s ease 0s;font-family: 'Lato',sans-serif}
+.checkoutPageLayout .coppel_number .button_primary>.button_text:hover{background-color: #045e9a ;}
+@media (max-width: 600px) {
+  .order_details {
+    padding: 0;
+  }
+  #order_details th.th_align_left_normal p {
+    margin-top: 0;
+  }
+  #order_details td.QTY {
+    padding: 16px 0;
+  }
+  #order_details tr {
+    width: 100%;
+  }
+  #order_details tr.order_item {
+    border-bottom: 2px solid #e0e0e0;
+  }
+  #order_details tr.order_item td.each {
+    width: 80%;
+    float: left;
+    margin-bottom: 16px;
+  }
+  #order_details tr.order_item td.last {
+    width: 20%;
+    float: right;
+    clear: none;
+    background-color: #fffbfc;
+    border: solid 2px #ec424d;
+    margin-top: 0;
+    padding: 0;
+  }
+  #order_details tr.nested {
+    display: none;
+  }
+  .total_breakdown {
+    padding: 0;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  #order_details .img_title {
+    float: right;
+    width: 100%;
+  }
+  #order_details tr.nested th.first {
+    padding-left: 40px;
+  }
+  #order_details div[id^="WC_OrderItemDetailsf_div_1_"],
+  #order_details div[id^="WC_OrderItemDetailsSummaryf_div_1_"],
+  #order_details div[id^="WC_OrderItemDetails_div_1_"],
+  #order_details div[id^="WC_MSOrderItemDetailsSummaryf_div_1_"],
+  #order_details div[id^="WC_MSOrderItemDetails_div_1_"] {
+    width: 160px;
+  }
+}
+#order_details .shipAddress {
+  width: 150px;
+}
+#order_details .shipMethod {
+  width: 300px;
+}
+#order_details .requestedShippingDate {
+  width: 12%;
+  padding-right: 4px;
+}
+#order_details .expedite {
+  width: 15%;
+}
+#order_details .received {
+  text-align: center;
+  padding-right: 8px;
+  width: 90px;
+}
+#order_details .purchase_date {
+  width: 100px;
+  padding-left: 8px;
+  text-align: left;
+}
+#order_details .regmemo_textarea {
+  margin-bottom: 2px;
+  margin-right: -7px;
+}
+#order_details .product_specs {
+  margin-left: 16px;
+}
+.shipping_billing_img_padding {
+  overflow-x: scroll;
+}
+.shipping_billing_img_padding #order_details .itemspecs a.discount {
+  padding-left: 0px;
+}
+#order_details .itemspecs {
+  float: left;
+  vertical-align: middle;
+}
+#order_details .itemspecs a.discount {
+  padding-left: 70px;
+}
+#order_details .itemspecs .icon_link {
+  vertical-align: top;
+}
+.icon_link_align {
+  line-height: 16px;
+  display: inline-block;
+}
+.info_icon {
+  padding-left: 5px;
+}
+#order_details .th_align_left_normal .itemspecs {
+  padding-right: 10px;
+}
+#order_details .th_align_left_no_bottom {
+  border-bottom: 0px;
+}
+#order_details .th_align_left_dotted_top_solid_bottom {
+  /*this class is used when there is a discount*/
+
+  border-top: 1px dashed #e5e5e5 !important;
+  text-align: left;
+  font-weight: normal;
+  padding: 6px 7px 6px 7px;
+  vertical-align: top;
+  border-bottom: 1px solid #e5e5e5 !important;
+  text-align: right;
+}
+.order_details_my_account {
+  padding: 4px 0px 4px 0px;
+}
+#box.shopping_cart_box .espot_checkout_bottom_right {
+  margin-left: 580px;
+}
+#box.shopping_cart_box .espot_payment {
+  display: inline-block;
+}
+div#shopping_cart_product_table_tall {
+  font-size: 100%;
+  color: #4d4d4d;
+  line-height: 0px;
+  display: none;
+}
+div#purchase_options input {
+  border: none;
+  background-color: none;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+div#purchase_options label {
+  padding-right: 15px;
+}
+div#purchase_options label img {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+/* ShopCartDisplay Unregistered
+/* Styles -------------------------------------*/
+#WC_UnregisteredCheckout_div_16 .message {
+  margin-left: 190px;
+  margin-bottom: 8px;
+}
+/* Thank You
+================================================== */
+/* Styles -------------------------------------*/
+.thank_you {
+  text-align: center;
+  margin-top: 40px;
+}
+.thank_you h1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding: 20px 60px;
+  display: inline-block;
+  border-bottom: solid 1px #e0e0e0;
+  margin-bottom: 20px;
+}
+.thank_you p {
+  margin-bottom: 20px;
+}
+.thank_you p .strong {
+  color: #235aa9;
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.thank_you p#orderDateParagraph {
+  margin-top: 20px;
+  font-size: 80%;
+}
+.thank_you p em {
+  padding: 8px 12px;
+  font-size: 80%;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+@media (max-width: 650px) {
+  .thank_you h1 {
+    font-size: 35px;
+    padding: 13px 20px;
+    display: block;
+    margin-bottom: 15px;
+    line-height: 35px;
+  }
+}
+/* ShippingDetailsDisplay.jsp
+-------------------------------------------------------------------
+*/
+#box .header_element_align {
+  display: inline-block;
+  margin: 9px 7px;
+  vertical-align: middle;
+}
+#location .location_select {
+  margin-right: 15px;
+  float: left;
+}
+#location .location_select_form {
+  padding-right: 0px;
+  height: 30px;
+}
+#location .location_select_button {
+  padding-top: 21px;
+  padding-left: 5px;
+  margin-left: 5px;
+  display: block;
+}
+/* StoreLocator.jsp
+-------------------------------------------------------------------
+*/
+/* SelectedStoreList.jsp
+  -------------------------------------------------------------------
+  */
+div#your_store_list .text_padding {
+  padding: 10px 0;
+  font-size: 14px;
+}
+/* StoreLocatorResults.jsp
+  -------------------------------------------------------------------
+  */
+.number_info {
+  padding-top: 4px;
+  float: left;
+}
+div#store_selection div.number_info {
+  /* border-bottom: 7px solid #e5e5e5; Seems to cause a grey bar not seen in MadisonsV1 */
+
+  width: 100%;
+}
+div#store_selection div.number_info span.blue_text {
+  height: 23px;
+  line-height: 23px;
+}
+.solid_line {
+  border-top: 1px solid #e5e5e5;
+}
+#bopis_table {
+  padding-bottom: 4px;
+  margin-top: 5px;
+}
+#bopis_table th,
+#bopis_table1 th {
+  border-bottom: 1px solid #e5e5e5;
+  height: 18px;
+  vertical-align: top;
+  text-align: left;
+  color: #777777;
+  font-weight: bold;
+}
+#bopis_table td {
+  padding: 6px 0px;
+  vertical-align: top;
+}
+#bopis_table .dotted_bottom_border {
+  border-bottom: 1px dotted #E5E5E5;
+}
+#bopis_table td.avail img {
+  vertical-align: middle;
+}
+#bopis_table1 {
+  padding-bottom: 4px;
+  margin-top: 5px;
+}
+#bopis_table1 .dotted_bottom_border {
+  border-bottom: 2px dotted #E5E5E5;
+}
+#bopis_table1 td {
+  padding: 6px 0px;
+  vertical-align: top;
+}
+#bopis_table1 td.avail img {
+  vertical-align: middle;
+}
+#bopis_table1 input {
+  margin-right: 16px;
+  margin-left: 8px;
+}
+/* at_modify: searchinstore_popup 
+  -------------------------------------------------------------------
+  */
+.searchinstore_popup {
+  position: absolute;
+  margin: 144px 0 0 10%;
+  max-width: 80%;
+  z-index: 400;
+}
+@media (max-width: 1025px) {
+  .searchinstore_popup .left_column {
+    display: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1025px) {
+  .searchinstore_popup {
+    position: absolute;
+    margin: 63px 0 0 20%;
+  }
+}
+@media (max-width: 800px) {
+  .searchinstore_popup {
+    position: absolute;
+    margin: 60px 0 0 10%;
+  }
+}
+/* -----------------------------------------------------------------------------*/
+/* SHIPPING DETAILS
+/* -----------------------------------------------------------------------------*/
+/* Shipping
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+#shipping .shipping_address,
+#shipping_address .shipping_address {
+  float: left;
+  padding: 0 16px;
+}
+#shipping .shipping_address_content,
+#shipping_address .shipping_address_content {
+  border-top: solid 2px #e0e0e0;
+  padding: 12px 0;
+}
+.payment_options.checkout-2 .payment_options_content .title.sub_header label{font-weight: normal;color:#808080;}
+#shipping .shipping_address_content{
+  padding-bottom: 3px;
+  margin-top: 10px;
+  padding-top: 17px;
+  border-top: 1px solid #555;
+}
+#shipping .data_select > *,
+#shipping_address .data_select > * {
+  vertical-align: middle;
+  display: inline-block;
+}
+#shipping .data_select .newShippingAddressButton,
+#shipping_address .data_select .newShippingAddressButton {
+  vertical-align: bottom;
+}
+#shipping .data_select .button_primary,
+#shipping_address .data_select .button_primary,
+#shipping .data_select .button_secondary,
+#shipping_address .data_select .button_secondary {
+  margin: 0;
+}
+#shippingAddressSelectBoxArea .shipping_address{padding:0;}
+#shipping .data_current,
+#shipping_address .data_current {
+  font-size: 90%;
+  margin: 15px 0 20px 0;
+  line-height: 180%;
+}
+#shipping .data_current #addressDisplay_AddressName,
+#shipping_address .data_current #addressDisplay_AddressName {
+  font-weight: 900;
+}
+.direccionCheckout{font-weight: bold;font-size: 15px;line-height: 18px;}
+select#singleShipmentAddress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    padding: 0 11px;
+    background: url("");
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center right 10px;
+    cursor: pointer;
+	font-size: 15px;
+}
+#WC_ShippingAddressSelectSingle_div_1 h2 span {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+} 
+#shipping .shipping_address{width: 100%;}
+#shipping .editAddressLink,
+.linksCheckout{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #009edc;font-size: 15px;
+  float: left;width: 50%;
+}
+.shopcart_pagination {
+  float: left;
+  width: 100%;
+}
+div.free_gifts_block {
+  float: left;
+}
+.payment_options {
+  float: left;
+  margin-top: 20px;
+  padding: 0 16px;
+}
+.checkoutPageLayout #total_breakdown{margin-top: 80px;}
+.payment_options form {
+  margin: 0;
+}
+.payment_options .payment_options_content {
+  padding-top: 12px;
+}
+.payment_options .billing_options {
+  margin: 12px 4px;
+}
+.checkoutPageLayout .payment_options .billing_options {
+  margin: 12px 4px 0;
+}
+#listPaymentMethod{margin: 38px 0px 12px;}
+#listaEstablecimientos{width: 465px;margin-left: 4px;margin-bottom: 5px}
+#payU_CheckOut .payment_options .billing_options{}
+.payment_options .billing_options li {
+  float: left;
+  width: calc(20% - 8px);
+  max-width: 134px;
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  margin-right: 8px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  text-align: center;
+}
+.payment_options #listPaymentMethod li{height: 115px;position: relative;}
+.payment_options #listPaymentMethod li:hover{border-radius:4px;}
+.payment_options .billing_options li:last-child {
+  margin-right: 0;
+}
+.payment_options .billing_options li.selected {
+  pointer-events: none;
+  border: solid 3px #0160ab;
+}
+/*.payment_options .billing_options li.selected a {
+  border: solid 6px #0160ab;
+  border-radius: 4px;
+}*/
+.payment_options .billing_options li.selected a:hover {
+  cursor: default;
+}
+.payment_options .billing_options li a {
+  display: block;
+  padding: 6px 0px 0;
+}
+.payment_options .billing_options li a.selected {
+  background-color: #f3f3f3;
+  border: solid 3px #0160ab;
+
+}
+.payment_options .billing_options li a{
+  border: solid 3px transparent;
+  border-radius: 4px;
+  height: 115px;
+}
+.payment_options #payU_CheckOut .billing_options li a{
+  height: 88px;
+}
+.payment_options .billing_options li a:hover {
+  border: solid 3px #0160ab;
+}
+.payment_options .billing_options li label {
+  font-size: 12px;
+    font-family: Lato;
+    display: inline-block;
+    font-weight: bold;
+    color: #808080;line-height: 17px;
+}
+.payment_options .billing_options li div {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.payment_options .billing_options li div.coppel-client {
+  background: url("") no-repeat center bottom;background-size: 100%;margin-bottom: 15px;width: 98px;
+}
+.payment_options .billing_options li div.cash-payment {
+  background: url("") no-repeat center bottom;background-size: 100%;margin-bottom: 15px;width: 99px;
+}
+.payment_options .billing_options li div.card-payment {
+  background: url("") no-repeat center bottom;background-size: 100%;margin: 0 auto 4px;width: 99px;
+}
+.payment_options .billing_options li div.pay-pal {
+  background: url("") no-repeat center bottom;background-size: 100%;margin-top: 22px;margin-bottom: 25px;width: 103px;height: 26px;
+}
+.payment_options .billing_options li div.visa-checkout {
+  background: url("") no-repeat center bottom;background-size: 100%;margin: 0 auto 15px;width: 82px;
+}
+
+/*.payment_options #listPaymentMethod li:hover  .arrow-selected{background: url("../images/CoppelAssets/Cpl_Checkout/arrow-pago.png") no-repeat center bottom;background-size: 100%;margin: 0 auto 29px;width: 16px;height: 8px;display: block;position: absolute;top: -16px;left: 50%;transform: translate(-50%);}*/
+.selected .arrow-selected{background: url("") no-repeat center bottom;background-size: 100%;margin: 0 auto 29px;width: 16px;height: 8px;display: block;position: absolute;top: -16px;left: 50%;transform: translate(-50%);}
+.payment_options .shipping_billing_height {
+  height: 100%;
+  margin: 20px 0px;
+}
+.payment_options .billing_address {
+  display: none;
+}
+#shipping .title,
+.payment_options .title {
+  margin: 0;
+}
+#shipping .title label,
+.payment_options .title label {
+  color: #999999;
+  font-weight: bold;
+  margin-right: 4px;
+}
+/*at modify*/
+@media (max-width: 1200px) {
+  #credito_coppel_page h3 {
+    text-align: left;
+  }
+  #credito_coppel_page #coppelClienteNumber_Checkout  > #initialNumber_Checkout .input {
+    margin-bottom: 15px;
+  }
+  #credito_coppel_page #coppelClienteNumber_Checkout  > #initialNumber_Checkout  > a {
+    margin: 0 0 0 17px;
+    width: 100%;
+  }
+  #credito_coppel_page #coppelClienteNumber_Checkout  > #initialNumber_Checkout .button_primary {
+    min-width: 215px;
+  }
+  #credito_coppel_page #coppelClienteNumber_Checkout  > #paymentMethod_Checkout li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  
+}
+@media (max-width: 900px) and (min-width: 601px) {
+  .payment_options {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .payment_options.checkout-2 {
+    width: 100%;padding-left: 0;
+  }
+  .payment_options .body.shipping_billing_height {
+    width: 90%;
+  }
+  .payment_options .billing_options  > li {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .payment_options #listPaymentMethod {
+    width: 90%;
+  }
+  .shipping #OrderItemPagingDisplay {
+    width: 50%;
+    margin-top: 30px;
+    float: left;
+    padding: 0;
+  }
+  .shipping .shipping_address {
+    width: 50%;
+    margin-right: 5%;
+  }
+  .shipping #shipping_address {
+    padding: 0;
+  }
+  .shipping #shipping_address #total_breakdown {
+    margin-right: 5%;
+    padding: 0;
+  }
+  .title .price  > input {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 900px) {
+  /*at_modify: Dojo Warnings*/
+  .dijitTooltip.dijitTooltipRight {
+    left: 60px !important;
+  }
+  .dijitTooltip.dijitTooltipRight  > .dijitTooltipContainer.dijitTooltipContents {
+    width: 160px !important;
+  }
+  .dijitTooltip.dijitTooltipLeft {
+    left: 50px !important;
+    width: 100px !important;
+  }
+}
+@media (max-width: 650px) {
+  #shipping .data_select > * {
+    display: block;
+    max-width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .payment_options {
+    width: 100%;
+    padding:0;
+  }
+  .shopping_cart_box .button_footer_line{width:100%;}
+  .payment_options_content .payment_options .body.shipping_billing_height {
+    width: 80%;
+  }
+  .payment_options .billing_options  > li {
+    width: 100%;
+    float: none;
+  }
+  .payment_options .billing_options :before {
+    background-color: #ff0000;
+  }
+  .payment_options .card_info .title .price  > input {
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .payment_options #payU_CheckOut li {
+    width: 100%;
+  }
+  .payment_options #MasterCard_CheckOut dl {
+    width: 90%;
+    float: none;
+  }
+  .shipping #OrderItemPagingDisplay {
+    padding: 0;
+    float: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .shipping #shipping_address {
+    padding: 0;
+  }
+  .shipping #shipping_address .shipping_address {
+    margin-top: 0px;
+    padding: 0;
+  }
+  .shipping #shipping_address #total_breakdown {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+}
+/* Edit Address
+================================================== */
+/* Styles -------------------------------------*/
+#centered_single_column_form .align {
+  margin: 0 auto;
+  width: 100%;
+}
+.column {
+  float: left;
+  padding-left: 10px;
+}
+/* Billing
+================================================== */
+/* Resources ----------------------------------*/
+/* Styles -------------------------------------*/
+.billing .payment_heading {
+  display: none;
+}
+.billing .amount-info {
+  padding: 12px 18px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  font-weight: bold;
+  border: solid 1px #e0e0e0;
+}
+.billing .amount-info span {
+  display: inline-block;
+}
+.billing .amount-info span label {
+  font-weight: 700;
+  color: #3b3b3b;
+}
+.billing .amount-info span.price {
+  margin-right: 8px;
+}
+.billing .amount-info span.price input {
+  color: #0072bc;
+  border: none;
+  outline: none;
+}
+.billing .card_info {
+  display: block;
+}
+.billing .card_info h3 {
+  background-color: #f3f3f3;
+  padding: 12px 18px;
+  margin: 12px 0;
+  position: relative;
+  font-size: .875em;
+}
+.billing .card_info h3:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #0072bc;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 8px;
+  display: inline-block;
+  float: left;
+}
+.billing .card_info h3 .tooltip {
+  float: right;
+  font-size: 150%;
+}
+.billing .card_info h3 .tooltip i {
+  color: #0072bc;
+}
+.billing .card_info dl {
+  display: block;
+  margin-bottom: 12px;
+  height: 75px; /*RoyalCyber: Fix for issues 2033 and 2030*/
+}
+.billing .card_info dl label {
+  font-size: 85%;
+}
+.billing .card_info dl input,
+.billing .card_info dl select {
+  display: inline-block;
+  border: solid 1px #999999;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.billing .card_info .content {
+  display: block;
+  padding: 12px;
+}
+.billing .card_info .payment_container {
+  padding: 12px;
+  margin-top: 16px;
+}
+.billing .card_info .payment_container .content {
+  display: block;
+}
+.billing .card_payment .payment_container {
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.4);
+  border: solid 1px #e0e0e0;
+}
+.billing .card_payment .payment_container .title {
+  margin: -12px -12px 12px -12px;
+  background: #f3f3f3;
+  background: -webkit-linear-gradient(top, #f3f3f3 30%, #d3d3d3 120%);
+  background: -moz-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -ms-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  background: -o-linear-gradient(top, #ffffff 30%, #e0e0e0 120%);
+  color: #3b3b3b;
+  border: 1px solid #e0e0e0;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  border-bottom: solid 1px #999999;
+}
+.billing .card_payment .payment_container .billing_options li {
+  min-height: 100px;
+}
+.billing .card_payment dl {
+  float: left;
+  width: 50%;
+}
+.billing .card_payment dl.date div {
+  display: inline-block;
+  margin-right: 8px;
+}
+.billing .card_payment dl.date div + div {
+  margin-right: 0;
+}
+.billing .card_payment dl.date dd label {
+  display: none;
+}
+.billing .card_payment dl.date select {
+  min-width: 80px;
+}
+.billing .card_payment dl.ccv input {
+  width: 80px;
+}
+.billing .card_payment dl.ccv .order_link {
+  font-size: 125%;
+}
+.billing .card_payment dl.ccv .order_link i {
+  color: #c7c7c7;
+}
+.billing .cash_payment .payment_container {
+  padding: 12px 0;
+  background-color: #ffffff;
+}
+.billing .cash_payment .payment_container .title {
+  margin-top: -12px;text-align: left;
+}
+.billing .cash_payment .billing_options li:nth-child(4),
+.billing .cash_payment .billing_options li:nth-child(5),
+.billing .cash_payment .billing_options li:nth-child(6){margin-top:12px;}
+.billing .cash_payment .billing_options li {
+  width: auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0 9px 0 0;
+  width: 33.33%;
+  max-width: 146px;
+  background-color: #fbfbfb;
+}
+.billing .cash_payment .billing_options li:first-child {
+  margin-left: 0;
+}
+.billing .cash_payment .billing_options li:last-child {
+  margin-right: 0;
+}
+.billing .cash_payment .billing_options li a {
+  padding: 4px 8px;
+  text-align: left;
+}
+.billing .cash_payment .billing_options li a div {
+  min-height: 65px;
+  display: block;
+}
+.billing .cash_payment .billing_options li a input {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.billing .cash_payment .billing_options li a label {
+  display: none;
+}
+.billing .cash_payment .billing_options li.scotiabank a div {
+  background: url("") no-repeat center top;
+}
+.billing .cash_payment .billing_options li.santander a div {
+  background: url("") no-repeat center top;
+}
+.billing .cash_payment .billing_options li.oxxo a div {
+  background: url("") no-repeat center top;
+}
+.billing .cash_payment .billing_options li.farmacias a div {
+  background: url("") no-repeat center top;background-size: 100%;margin-top: 12px;
+}
+.billing .cash_payment .billing_options li.seveneleven a div {
+  background: url("") no-repeat center top;
+}
+.billing .cash_payment .billing_options li.various a div {
+  background: url("") no-repeat center top;
+}
+.billing .cash_payment .notify {
+  display: none;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 0;
+}
+.billing .credit-coppel_payment .payment_container {
+  border: solid 1px #e0e0e0;
+}
+.billing .credit-coppel_payment .payment_container .title {
+  margin: -12px -12px 12px -12px;
+  background: transparent;
+}
+.billing .credit-coppel_payment .payment_container .options {
+  display: block;
+}
+.billing .credit-coppel_payment .payment_container .link {
+  font-size: 12px;
+  color: #0d59b4;
+}
+.billing .credit-coppel_payment .payment_container .link:hover{text-decoration: underline;}
+.billing .credit-coppel_payment .payment_container .link.usernumber {
+  margin: 4px;
+  display: block;
+  color: #3b3b3b;
+}
+.billing .credit-coppel_payment .payment_container .link strong {
+  font-weight: bold;
+}
+.billing .credit-coppel_payment .payment_container .coppel_number > *,
+.billing .credit-coppel_payment .payment_container .coppel_calculator > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.billing .credit-coppel_payment .payment_container .coppel_number .input,
+.billing .credit-coppel_payment .payment_container .coppel_calculator .input {
+  height: 36px;
+  margin-top: 2px;
+}
+.billing .credit-coppel_payment .payment_container .coppel_number .input:focus,
+.billing .credit-coppel_payment .payment_container .coppel_calculator .input:focus {
+	outline: 0;
+}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .coppel_number .input{padding-top: 0;}
+.billing .credit-coppel_payment .payment_container .coppel_number .button_primary,
+.billing .credit-coppel_payment .payment_container .coppel_calculator .button_primary {
+  min-width: 200px;
+  margin: 0 0 0 8px;
+}
+.billing .credit-coppel_payment .payment_container .update .button_text {
+  padding: 0 32px;
+}
+.billing .credit-coppel_payment .payment_container .update .button_text:after {
+  content: "\f021";
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  line-height: 1.8em;
+  top: 0;
+  left: 0;
+  padding: 0 8px;
+}
+.billing .credit-coppel_payment .payment_container .payment {
+  margin-top: 8px;
+  padding: 0 16px;
+}
+.billing .credit-coppel_payment .payment_container .payment li {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.billing .credit-coppel_payment .payment_container .payment li label {
+  margin-left: 4px;
+}
+@media (max-width: 1025px) {
+  .cc-payment {
+    display: inline-block !important;
+  }
+}
+/* Billing Summary
+================================================== */
+/* Styles -------------------------------------*/
+#shipping_address .shipping_address_content {
+  float: left;
+}
+#shipping_address .shipping_address_content .data_current {
+  margin-top: 0;
+}
+#shipping_address .shipping_method_summary {
+  float: left;
+  background-color: lemonchiffon;
+  display: none;
+}
+#OrderItemPagingDisplay,
+#shipping_address #total_breakdown {
+  float: right;
+  padding: 0 0 0 60px;
+}
+#OrderItemPagingDisplay {
+  margin-top: 40px;
+}
+/* OrderShippingBillingDetails.jsp - calendar
+-------------------------------------------------------------------
+*/
+/* Dojo defined Tooltip css classes */
+.dijitTooltip {
+  position: absolute;
+  z-index: 2000;
+  display: block;
+  /* make visible but off screen */
+
+  left: 50%;
+  top: -10000px;
+  overflow: visible;
+}
+.dijitTooltipContainer {
+  min-width: 150px;
+  position: absolute;
+  top: -21px;
+  border: solid black 2px;
+  background: #b8b5b5;
+  color: black;
+  font-size: small;
+  background: red;
+}
+.dijitTooltipFocusNode {
+  padding: 2px 2px 2px 2px;
+}
+.dijitTooltipConnector {
+  position: absolute;
+}
+.dijit_a11y .dijitTooltipContainer {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+.dj_safari .tundra .dijitPopup {
+  -webkit-box-shadow: 0px 5px 10px #adadad;
+}
+.dijitTooltip,
+.dijitTooltipDialog {
+  opacity: 0.95;
+  background: transparent;
+  /* make the area on the sides of the arrow transparent */
+
+}
+.dijitTooltipBelow {
+  padding-top: 13px;
+}
+.dijitTooltipAbove {
+  padding-bottom: 13px;
+}
+.dijitTooltipContainer {
+  background-color: #fafafa;
+  border: 1px solid #b6c7d5;
+  padding: 0.45em;
+  border-radius: 6px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 6px;
+  width: auto;
+}
+@-moz-document url-prefix() {
+  .dijitTooltipContainer {
+    margin-top: 76px;
+  }
+}
+.dijitTooltipConnector {
+  border: 0px;
+  z-index: 2;
+}
+.dijitTooltipABRight .dijitTooltipConnector {
+  left: auto !important;
+  right: 3px;
+}
+.dijitTooltipBelow .dijitTooltipConnector {
+  top: 0px;
+  left: 3px;
+  background: url("") no-repeat top left;
+  width: 16px;
+  height: 14px;
+}
+.dijitTooltipAbove .dijitTooltipConnector {
+  bottom: 0px;
+  left: 3px;
+  background: url("") no-repeat top left;
+  width: 16px;
+  height: 14px;
+}
+.dijitTooltipLeft {
+  padding-right: 13px;
+}
+.dijitTooltipLeft .dijitTooltipConnector {
+  right: 0px;
+  bottom: 7px;
+  background: url("") no-repeat top left;
+  width: 16px;
+  height: 14px;
+}
+.dijitTooltipRight {
+  padding-left: 13px;
+}
+.dijitTooltipRight .dijitTooltipConnector {
+  left: 0px;
+  bottom: 7px;
+  background: url("") no-repeat top left;
+  width: 16px;
+  height: 14px;
+}
+.dj_ie .dijitRtl .dijitTooltipLeft {
+  margin-right: 0px;
+  margin-left: 13px;
+}
+.dj_ie .dijitRtl .dijitTooltipRight {
+  margin-left: 26px;
+  margin-right: -13px;
+}
+.dj_ie .dijitRtl .dijitTooltipDialog {
+  zoom: 1 !important;
+}
+.dijitValidationIcon {
+  display: none;
+}
+/* Needed by dojo calendar classes */
+.dijitHidden {
+  display: none;
+}
+.dijitVisible {
+  display: block;
+  position: relative;
+}
+.dijitPopup {
+  position: absolute;
+  background-color: transparent;
+  margin: 4px 0 0 0;
+  border: 0;
+  padding: 0;
+}
+/* Calendar from dijit.css */
+/* Calendar */
+.dijitCalendarContainer {
+  width: auto;
+  /* in case user has specified a width for the TABLE nodes, see #10553 */
+
+}
+.dijitCalendarContainer th,
+.dijitCalendarContainer td {
+  padding: 0;
+  vertical-align: middle;
+}
+.dijitCalendarYearLabel {
+  white-space: nowrap;
+  /* make sure previous, current, and next year appear on same row */
+
+}
+.dijitCalendarNextYear {
+  margin: 0 0 0 0.55em;
+}
+.dijitCalendarPreviousYear {
+  margin: 0 0.55em 0 0;
+}
+.dijitCalendarIncrementControl {
+  vertical-align: middle;
+}
+.dijitCalendarIncrementControl,
+.dijitCalendarDateTemplate,
+.dijitCalendarMonthLabel,
+.dijitCalendarPreviousYear,
+.dijitCalendarNextYear {
+  cursor: pointer;
+}
+.dijitCalendarDisabledDate {
+  color: gray;
+  text-decoration: line-through;
+  cursor: default;
+}
+.dijitSpacer {
+  /* don't display it, but make it affect the width */
+
+  position: relative;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* Styling for month drop down list */
+.dijitCalendarMonthMenu .dijitCalendarMonthLabel {
+  text-align: center;
+}
+/* Calendar from tundra.css*/
+/* For .dijitArrowButton */
+div.dijitArrowButton {
+  float: right;
+}
+/* For .dijitArrowButtonContainer */
+.dijitTextBox .dijitArrowButtonContainer,
+.dijitValidationTextBox .dijitValidationContainer {
+  float: right;
+  text-align: center;
+}
+/* For .dijitArrowButtonInner */
+.dijitButtonNode .dijitArrowButtonInner {
+  /* the arrow icon node */
+
+  background: no-repeat center;
+  width: 12px;
+  height: 12px;
+  direction: ltr;
+  /* needed by IE/RTL */
+
+}
+.dijitValidationTextBoxError input.dijitValidationInner,
+.dijitTextBox input.dijitArrowButtonInner {
+  /* <input> used to display arrow icon/validation icon, or in arrow character in high contrast mode.
+     * The css below is a trick to hide the character in non-high-contrast mode
+     */
+
+  text-indent: -2em !important;
+  direction: ltr !important;
+  text-align: left !important;
+  height: auto !important;
+  text-indent: 0 !important;
+  letter-spacing: -5em !important;
+  text-align: right !important;
+}
+.dj_gecko .dijitArrowButtonInner INPUT,
+.dj_gecko INPUT.dijitArrowButtonInner {
+  -moz-user-focus: ignore;
+}
+.dijitTextBox input.dijitArrowButtonInner {
+  background-image: url("");
+  background-position: -38px 40%;
+  background-repeat: no-repeat;
+  margin: 0;
+  z-index: 1000;
+  width: 20px;
+}
+/* For .dijitButtonNode */
+/* button inner contents - labels, icons etc. */
+.dijitButtonNode * {
+  vertical-align: middle;
+}
+.dijitButtonNode .dijitArrowButtonInner {
+  /* the arrow icon node */
+
+  background: no-repeat center;
+  width: 12px;
+  height: 12px;
+  direction: ltr;
+  /* needed by IE/RTL */
+
+}
+.dijitButtonNode img {
+  /* make text and images line up cleanly */
+
+  vertical-align: middle;
+  /*margin-bottom:.2em;*/
+
+}
+.dijitButtonNode {
+  /* Node that is acting as a button -- may or may not be a BUTTON element */
+
+  border: 1px solid gray;
+  margin: 0;
+  line-height: normal;
+  vertical-align: middle;
+  vertical-align: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+.dijitTextBox .dijitButtonNode {
+  border-width: 0;
+}
+.dijitButtonNode,
+.dijitButtonNode * {
+  cursor: pointer;
+}
+.dj_ie .dijitButtonNode {
+  /* ensure hasLayout */
+
+  zoom: 1;
+}
+.dj_ie .dijitButtonNode button {
+  /*
+      disgusting hack to get rid of spurious padding around button elements
+      on IE. MSIE is truly the web's boat anchor.
+    */
+
+  overflow: visible;
+}
+/* For .dijitComboBox */
+.dijitInputContainer {
+  /* for positioning of placeHolder */
+
+  zoom: 1;
+  overflow: hidden;
+  float: none !important;
+  /* needed to squeeze the INPUT in */
+
+  position: relative;
+}
+/* For .dijitInline */
+.dijitInline {
+  /*  To inline block elements.
+      Similar to InlineBox below, but this has fewer side-effects in Moz.
+      Also, apparently works on a DIV as well as a FIELDSET.
+    */
+
+  display: inline-block;
+  /* webkit and FF3 */
+
+  zoom: 1;
+  /* set hasLayout:true to mimic inline-block */
+
+  display: inline;
+  /* don't use .dj_ie since that increases the priority */
+
+  border: 0;
+  padding: 0;
+  vertical-align: middle;
+  vertical-align: auto;
+  /* makes TextBox,Button line up w/native counterparts on IE6 */
+
+}
+table.dijitInline {
+  /* To inline tables with a given width set */
+
+  display: inline-table;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+/* For .dijitInputContainer */
+.dijitInputContainer {
+  /* for positioning of placeHolder */
+
+  zoom: 1;
+  overflow: hidden;
+  float: none !important;
+  /* needed to squeeze the INPUT in */
+
+  position: relative;
+}
+.dj_ie7 .dijitInputContainer {
+  float: left !important;
+  /* needed by IE to squeeze the INPUT in */
+
+  clear: left;
+  display: inline-block !important;
+  /* to fix wrong text alignment in rtl text box */
+
+}
+/* For .dijitInputField */
+.dijitTextBox input.dijitInputField {
+  /* override unreasonable user styling of buttons and icons */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.dj_gecko .dijitTextBoxReadOnly input.dijitInputField,
+.dj_gecko .dijitTextBoxDisabled input {
+  -moz-user-input: none;
+  /* prevent focus of disabled textbox buttons */
+
+}
+/* For .dijitInputInner */
+.dijitInputInner {
+  /* for when an <input> is embedded inside an inline-block <div> with a size and border */
+
+  border: 0 !important;
+  background-color: transparent !important;
+  width: 100% !important;
+  /* IE dislikes horizontal tweaking combined with width:100% so punish everyone for consistency */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 20px;
+}
+/* For .dijitLeft */
+.dijitLeft {
+  /* Left part of a 3-element border */
+
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+/* For .dijitReset */
+.dijitReset {
+  /* Use this style to null out padding, margin, border in your template elements
+      so that page specific styles don't break them.
+      - Use in all TABLE, TR and TD tags.
+    */
+
+  margin: 0;
+  border: 0;
+  padding: 0;
+  line-height: normal;
+  vertical-align: text-top;
+}
+/* For .dijitRight */
+.dijitRight {
+  /* Right part of a 3-element border */
+
+  display: inline-block;
+  /* IE7 sizes to outer size w/o this */
+}
+/* For .dijitTextBox */
+.dj_ie input.dijitTextBox,
+.dj_ie .dijitTextBox input {
+  font-size: 100%;
+}
+.dijitTextBox .dijitArrowButtonContainer,
+.dijitValidationTextBox .dijitValidationContainer {
+  float: right;
+  text-align: center;
+}
+.dijitTextBox input.dijitInputField {
+  /* override unreasonable user styling of buttons and icons */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.dijitTextBox .dijitButtonNode {
+  border-width: 0;
+}
+.dijitTextBox {
+  border: solid #BFBFBF 1px;
+  overflow: hidden;
+  /* #6027, #6067 */
+
+  width: 132px;
+  /* need to set default size on outer node since inner nodes say <input style="width:100%"> and <td width=100%>.  user can override */
+
+  vertical-align: middle;
+}
+.dijitTextBox input:focus {
+  outline: none;
+  /* blue fuzzy line looks wrong on combobox or something w/validation icon showing */
+
+}
+.dijitTextBox input {
+  float: left;
+  /* needed by IE to remove secret margin */
+
+}
+.dijitValidationTextBoxError input.dijitValidationInner,
+.dijitTextBox input.dijitArrowButtonInner {
+  /* <input> used to display arrow icon/validation icon, or in arrow character in high contrast mode.
+     * The css below is a trick to hide the character in non-high-contrast mode
+     */
+
+  text-indent: -2em !important;
+  direction: ltr !important;
+  text-align: left !important;
+  height: auto !important;
+  text-indent: 0 !important;
+  letter-spacing: -5em !important;
+  text-align: right !important;
+}
+.dj_ie .dijitTextBox input,
+.dj_ie input.dijitTextBox {
+  overflow-y: visible;
+  /* inputs need help expanding when padding is added or line-height is adjusted */
+
+  line-height: normal;
+  /* strict mode */
+
+}
+/* For .dijitValidationContainer */
+.dijitTextBox .dijitArrowButtonContainer,
+.dijitValidationTextBox .dijitValidationContainer {
+  float: right;
+  text-align: center;
+}
+.dijitValidationTextBox .dijitValidationContainer {
+  display: none;
+}
+.dijitValidationTextBoxError .dijitValidationContainer {
+  display: inline;
+  cursor: default;
+}
+/* For .dijitValidationInner */
+.dijitValidationTextBoxError input.dijitValidationInner,
+.dijitTextBox input.dijitArrowButtonInner {
+  /* <input> used to display arrow icon/validation icon, or in arrow character in high contrast mode.
+     * The css below is a trick to hide the character in non-high-contrast mode
+     */
+
+  text-indent: -2em !important;
+  direction: ltr !important;
+  text-align: left !important;
+  height: 25px !important;
+  text-indent: 0 !important;
+  letter-spacing: -5em !important;
+  text-align: right !important;
+}
+.dijitCalendarMonthContainer .dijitArrowButtonInner {
+  display: none;
+}
+/* For .dijitArrowButtonChar */
+.dijitCalendarMonthContainer .dijitArrowButtonChar {
+  display: none;
+}
+/* For .dijitValidationTextBox */
+.dijitTextBox .dijitArrowButtonContainer,
+.dijitValidationTextBox .dijitValidationContainer {
+  float: right;
+  text-align: center;
+}
+.dijitValidationTextBox .dijitValidationContainer {
+  display: none;
+}
+/* For .dijitOffScreen */
+.dijitOffScreen {
+  /* these class attributes should supercede any inline positioning style */
+
+  position: absolute !important;
+  left: 50% !important;
+  top: -10000px !important;
+}
+/* Calendar
+   *
+   * Styling Calendar mainly includes:
+   *
+   * 1. Calendar container
+   *      .dijitCalendar - main container
+   *      .dijitCalendarHover / .dijitCalendarActive - states e.g. hover,active
+   *
+   * 2. Month
+   *      .dijitCalendarMonthContainer
+   *      .dijitCalendarMonthLabel
+   *    .dijitCalendarDecrease / .dijitCalendarDecrease - icons for switching to previous/next month
+   *    .dijitCalendarArrowActive .dijitCalendarDecrease - states e.g. hover,active
+   *
+   * 3. Date
+   *      .dijitCalendarDayLabelTemplate - week day column header e.g. S M T W T F S
+   *      .dijitCalendarDateTemplate - date label wrapper
+   *      .dijitCalendarPreviousMonth .dijitCalendarDateLabel - special labels for previous or next month
+   *    .dijitCalendarSelectedDate .dijitCalendarDateLabel - styles for selected date
+   *      .dijitCalendabrDisabledDate .dijitCalendarDateLabel - styles for disabled date
+   *      .dijitCalendarActiveDate .dijitCalendarDateLabel - states e.g. hover,active
+   *
+   * 4. Year
+   *      .dijitCalendarYearContainer
+   *      .dijitCalendarYearLabel
+   *      .dijitCalendarPreviousYear /.dijitCalendarNextYear
+   *    .dijitCalendarNextYearHover / .dijitCalendarPreviousYearHover - states e.g. hover,active
+   *
+   * 5. Dropdown Month Menu
+   *      .dijitCalendarMonthMenu - menu container
+   *      .dijitCalendarMonthMenu .dijitCalendarMonthLabel - month label in menu item
+   *      .dijitCalendarMonthMenu .dijitCalendarMonthLabelHover - menu item hover state
+   */
+.dijitCalendar {
+  border: solid 1px #cccccc;
+  border-collapse: separate;
+  background-color: #cfe5fa;
+  text-align: center;
+  padding: 0;
+}
+.dj_ie6 .dijitCalendar {
+  background-image: none;
+}
+.dijitCalendar img {
+  border: none;
+}
+.dijitCalendarHover,
+.dijitCalendar:hover,
+.dijitCalendarActive {
+  /* treat dijitCalendarActive like hover since there's
+     * no concept of clicking a Calendar as a whole (although you can click things inside the calendar)
+     */
+
+}
+.dijitCalendarMonthContainer th {
+  text-align: center;
+  padding-bottom: 4px;
+  vertical-align: middle;
+}
+tr.dijitCalendarMonthContainer {
+  background: url("") repeat-x scroll center top #ffffff;
+}
+.dijitCalendarContainer thead tr th,
+.dijitCalendarContainer thead tr td,
+.dijitCalendarContainer tbody tr td,
+.dijitCalendarContainer tfoot tr td {
+  padding: 0;
+}
+.dijitCalendarMonthLabel {
+  color: #293A4B;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: center;
+}
+/* next/previous month arrows */
+.dijitCalendarIncrementControl {
+  width: 18px;
+  height: 16px;
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+.dj_ie6 .dijitCalendarIncrementControl {
+  background-image: url("");
+}
+.dijitCalendarIncrease {
+  background-position: -18px 0;
+}
+.dijitCalendarArrowHover .dijitCalendarDecrease,
+.dijitCalendarArrow:hover .dijitCalendarDecrease {
+  background-position: -36px 0;
+}
+.dijitCalendarArrowHover .dijitCalendarIncrease,
+.dijitCalendarArrow:hover .dijitCalendarIncrease {
+  background-position: -55px 0;
+}
+.dijitCalendarArrowActive .dijitCalendarDecrease,
+.dijitCalendarArrow:active .dijitCalendarDecrease {
+  background-position: -72px 0;
+}
+.dijitCalendarArrowActive .dijitCalendarIncrease,
+.dijitCalendarArrow:active .dijitCalendarIncrease {
+  background-position: -91px 0;
+}
+.dijitA11ySideArrow {
+  /* text +/- labels instead of arrow icons, for high contrast mode */
+
+  display: none;
+}
+.dijitCalendarDayLabelTemplate {
+  background: url("") repeat-x scroll center bottom #ffffff;
+  border-top: 1px solid #EEEEEE;
+  color: #293A4B;
+  font-weight: normal;
+  padding-bottom: 0;
+  padding-top: 0.15em;
+  text-align: center;
+}
+.dijitCalendarDateTemplate {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0.3em 0.3em 0.05em;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000000;
+}
+.dijitCalendarCurrentMonth {
+  background-color: white !important;
+}
+.dj_ie6 .dijitCalendarDateTemplate {
+  background-image: none;
+}
+.dijitCalendarPreviousMonth,
+.dijitCalendarNextMonth {
+  background-color: #e5f2fe;
+  background-image: none;
+  /* todo: redundant with above .dijitCalendarDateTemplate rule */
+
+}
+.dijitCalendarDateTemplate .dijitCalendarDateLabel {
+  text-decoration: none;
+  display: block;
+  padding: 3px 5px 3px 4px;
+  border: solid 1px #ffffff;
+  /* intentionally matches background-color, no visible border until hover/selection */
+
+  background-color: rgba(171, 212, 251, 0);
+  /* transparent causes black-flash animation problem on webkit */
+
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+.dijitCalendarPreviousMonth .dijitCalendarDateLabel,
+.dijitCalendarNextMonth .dijitCalendarDateLabel {
+  background-color: #F8F8F8 !important;
+  color: #999999;
+}
+.dijitCalendarYearContainer {
+  background: url("") repeat-x scroll center bottom #ffffff;
+  border-top: 1px solid #CCCCCC;
+}
+.dijitCalendarYearControl {
+  padding: 1px 2px 2px 2px;
+}
+.dijitCalendarYearLabel {
+  margin: 0;
+  padding: 0.4em 0 0.25em;
+  text-align: center;
+}
+.dijitCalendarYearLabel span {
+  /* trying to center next/current/previous year vertically, doesn't work on IE6/7 though */
+
+  vertical-align: middle;
+}
+.dijitCalendarSelectedYear {
+  padding: 0 3px;
+}
+.dijitCalendarNextYear,
+.dijitCalendarPreviousYear {
+  padding: 1px 6px 1px 6px;
+}
+.dijitCalendarSelectedYear {
+  background-color: #F5AA31 !important;
+  color: black;
+}
+/* End Normal Calendar Style */
+/* Hovered Calendar Style */
+/* End Hovered Calendar Style */
+/* Active Calendar Style */
+.dijitCalendarNextYearActive,
+.dijitCalendarNextYear:active.dijitCalendarPreviousYearActive,
+.dijitCalendarPreviousYear:active {
+  border: solid 1px #759dc0;
+  padding: 0 5px 0 5px;
+  /* reduced by 1 to make room for border */
+
+  background-color: #F5AA31;
+}
+.dijitCalendarActiveDate .dijitCalendarDateLabel,
+.dijitCalendarEnabledDate:active .dijitCalendarDateLabel {
+  background-color: #F5AA31;
+  border: solid 1px #ffffff;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.dj_ie6 .dijitCalendarActiveDate .dijitCalendarDateLabel {
+  background-image: none;
+}
+/* End Active Calendar Style */
+/* Selected Calendar Style */
+.dijitCalendarSelectedDate .dijitCalendarDateLabel {
+  background-color: #F5AA31 !important;
+  color: black !important;
+}
+/* End Selected Calendar Style */
+/* Disabled Calendar Style*/
+.dijitCalendarDisabledDate .dijitCalendarDateLabel {
+  color: #818181;
+  text-decoration: line-through;
+}
+/* End Disabled Calendar Style */
+.dijitCalendarCurrentDate {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Styling for month DropDownButton */
+.dijitCalendar .dijitDropDownButton {
+  margin: 0;
+}
+.dijitCalendar .dijitButtonText {
+  padding: 1px 0 3px;
+  margin-right: -4px;
+}
+.dijitCalendar .dijitDropDownButton .dijitButtonNode {
+  padding: 0 3px 0 2px;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  background-color: transparent;
+  background-image: none;
+}
+.dijitCalendar .dijitDropDownButtonHover .dijitButtonNode,
+.dijitCalendar .dijitDropDownButton:hover .dijitButtonNode {
+  background-color: #F5AA31;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* Styling for month drop down list */
+.dijitCalendarMonthMenu {
+  border-color: #759dc0;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: none;
+}
+.dijitCalendarMonthMenu .dijitCalendarMonthLabel {
+  border-top: solid 1px #ffffff;
+  /* intentionally invisible until hover */
+
+  border-bottom: solid 1px #ffffff;
+  padding: 2px 0;
+}
+.dijitCalendarMonthMenu .dijitCalendarMonthLabelHover,
+.dijitCalendarMonthMenu .dijitCalendarMonthLabel:hover {
+  background-color: #F5AA31;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* Tooltip popups
+-------------------------------------------------------------------
+*/
+/*All the classes are similar to POPUP except that .tooltip_popup and #popup are different. Tooltip popups position should not be absolute and display should be block.*/
+#tooltipBox {
+  min-width: 250px;
+}
+.tooltip_popup {
+  width: 285px;
+}
+.tooltip_popup .header {
+  background-image: url("");
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 15px;
+  height: 23px;
+  line-height: 15px;
+}
+.tooltip_popup .popup_header_title {
+  float: left;
+  color: white;
+  padding: 5px 4px 0px 15px;
+  font-size: 11px;
+}
+.tooltip_popup .close {
+  padding: 5px 15px 2px 0px;
+  color: white;
+}
+.tooltip_popup .close .icon {
+  padding-top: 2px;
+  padding-left: 4px;
+  float: right;
+}
+.tooltip_popup .bodyarea {
+  background-image: url("");
+  background-repeat: repeat-y;
+}
+.tooltip_popup .bodycontent {
+  background-image: url("");
+  background-repeat: no-repeat;
+  padding: 12px 17px 12px 15px;
+  margin: 0px 1px 0px 1px;
+}
+.tooltip_popup .bodycontent_short {
+  background-image: url("");
+  background-repeat: no-repeat;
+  padding: 12px 17px 12px 15px;
+  margin: 0px 1px 0px 1px;
+}
+.tooltip_popup .footer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  text-align: right;
+  height: 23px;
+  width: 285px;
+}
+.tooltip_popup_price {
+  font-family: arial, helvetica, sans-serif;
+}
+/* Shipping and billing on summary page
+-------------------------------------------------------------------
+*/
+#shipping .shipping_address_summary {
+  float: left;
+  padding: 10px 100px 5px 3px;
+}
+#shipping .shipping_method_summary {
+  float: left;
+  padding: 10px 0px 5px 3px;
+}
+.itemspecs,
+.shipping_address_nester,
+.description_fixedwidth {
+  line-height: 18px;
+}
+#billing summary .profile,
+.billing_summary .profile,
+.shipping_address_content .profile,
+.shipping_address .profile,
+.shipping_address_nester .profile {
+  padding-bottom: 10px;
+}
+.offerprice {
+  color: #CA4200;
+}
+.order_print_signup {
+  line-height: 32px;
+  padding: 18px 2px 8px;
+  font-size: 12px;
+  color: #4d4d4d;
+}
+.button_side_message {
+  padding-left: 10px;
+  padding-top: 6px;
+  float: left;
+  font-size: 14px;
+  color: #777777;
+}
+#checkoutsms {
+  font-size: 12px;
+}
+/* General
+-------------------------------------------------------------------
+*/
+/* Needed by tooltips such as a billing method not selected during checkout 
+  iframe{
+    display:none;
+  }*/
+.nodisplay {
+  display: none;
+}
+.breadcrumb_current {
+  color: #CA4200;
+  font-weight: bold;
+}
+.top_border {
+  border-top: 1px solid #e5e5e5;
+  float: right;
+}
+.space {
+  height: 6px;
+}
+div.hidden_summary {
+  position: absolute;
+  left: -99999px;
+}
+textarea {
+  padding: 2px;
+  margin: 2px 0px 0px 0px;
+  font-size: 12px;
+  font-family: Arial;
+  border: 1px solid #bfbfbf;
+  overflow: auto;
+  color: #4d4d4d;
+}
+.button_padding {
+  margin: 0 12px;
+}
+.button_margin {
+  margin: 12px 0;
+}
+.error_msg {
+  color: #FF0000;
+  padding-bottom: 10px;
+  display: block;
+}
+.no_bottom_border {
+  border-bottom: 0px;
+}
+/* Free gift popup - PromotionChoiceOfFreeGiftsPopup
+-------------------------------------------------------------------
+*/
+div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content > .body > #radio_choices {
+  padding: 8px 17px 0 9px;
+}
+div#radio_choices div {
+  margin-bottom: 6px;
+}
+div#radio_choices div input {
+  margin: 0;
+  vertical-align: top;
+}
+div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content > .body > #free_gifts_table {
+  height: 260px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content > .footer > .button_container > .button_secondary {
+  display: block;
+  float: right;
+}
+div#free_gifts_table div.gifts_wrapper {
+  padding-bottom: 10px;
+  border-top: 1px solid #c6d0dc;
+}
+div.gifts_wrapper div.gift_item_container {
+  border-bottom: 1px solid #c9d3de;
+}
+div.gift_item_container div.selection {
+  float: left;
+  padding: 34px 5px 6px 5px;
+  width: 25px;
+}
+div.gift_item_container div.image {
+  float: left;
+  padding: 6px 5px;
+  width: 70px;
+}
+div.gift_item_container div.product_info {
+  float: left;
+  padding: 6px 5px;
+  width: 250px;
+}
+div.gift_item_container div.product_info h2 {
+  font-size: 10px !important;
+}
+div.gift_item_container div.price {
+  float: left;
+  padding: 6px 5px;
+  text-align: right;
+  width: 50px;
+}
+.product_info p.online_availability {
+  padding-top: 5px;
+}
+/* My Account left navigation
+-------------------------------------------------------------------
+*/
+#left_nav {
+  width: 167px;
+  padding: 0px 0px 13500px 0px;
+  margin: 0px 2px -13500px 0px;
+  float: left;
+}
+#left_nav p {
+  line-height: 1.8;
+  margin-right: 7px;
+}
+#left_nav .left_nav_container {
+  background-color: #fbfbfb;
+  width: 161px;
+  padding: 0px 0px 13520px 0px;
+  margin: 0px 0px -13500px 0px;
+}
+#left_nav .left_nav_options {
+  border: solid 5px #e5e5e5;
+  padding: 5px 0px 25px 7px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.left_nav_options .subcategory_link,
+.left_nav_options .subcategory_link a,
+.left_nav_options .leftnav_myaccount_dotted a {
+  color: #777777;
+}
+.left_nav_options .sidebar_header {
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  height: 34px;
+}
+.left_nav_options .sidebar_header {
+  padding-left: 7px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #777777;
+  font-weight: bold;
+}
+.left_nav_options .sidebar_header a {
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #777777;
+  font-weight: bold;
+}
+/* Duplicate? */
+/* #left_nav h2 {
+    line-height:12px;
+    margin-right:7px;
+    padding-bottom:5px;
+  }
+  */
+#left_nav h2 {
+  line-height: 35px;
+  padding-bottom: 0px;
+  background-color: #FFFFFF;
+  margin-right: 0px;
+}
+.leftnav_myaccount_solid {
+  border-bottom: 1px solid #e5e5e5;
+}
+.leftnav_myaccount_dotted {
+  border-bottom: dotted 1px #e5e5e5;
+}
+.left_nav_options .sidebar_header {
+  border-bottom: 1px solid #F1F1F1;
+  border-top: 1px solid #F1F1F1;
+  height: 34px;
+}
+/* MyAccountQuickCheckoutProfileForm.jsp
+-------------------------------------------------------------------
+*/
+.shipping_billing_content {
+  padding: 0px;
+}
+.shipping_billing_content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#my_account_billing {
+  width: 48%;
+  float: left;
+  margin-bottom: 8px;
+}
+#my_account_shipping {
+  width: 48%;
+  padding-left: 2%;
+  float: right;
+  border-left: solid 1px #c9d3de;
+}
+#my_account_billing:after,
+#my_account_shipping:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media (max-width: 720px) {
+  #my_account_billing,
+  #my_account_shipping {
+    width: 100%;
+    padding: 0;
+    border: 0 none;
+  }
+}
+.myaccount_link_legend {
+  color: #666666;
+  font-size: 14px;
+  padding-bottom: 4px;
+  font-weight: normal;
+}
+.quick_checkout_profile_padding {
+  padding-bottom: 7px;
+}
+/* Order Details table
+-------------------------------------------------------------------
+*/
+div#PreviouslyProcessed {
+  padding-right: 10px;
+}
+div#WaitingForApproval {
+  padding-right: 10px;
+}
+div#Scheduled {
+  padding-right: 10px;
+}
+/*************/
+/* Scheduled Orders/Subscription Table */
+.order_status_table.subscriptions .status_column,
+.order_status_table.scheduled_orders .status_column {
+  width: 7%;
+}
+.order_status_table.subscriptions .options_column,
+.order_status_table.scheduled_orders .options_column {
+  width: 24%;
+  /* Increase for g18n */
+
+  float: right !important;
+  padding-right: 0 !important;
+}
+.order_status_table.subscriptions .options_column div.edit,
+.order_status_table.scheduled_orders .options_column div.edit {
+  margin-top: 0 !important;
+}
+.checkout_subheader_content {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* OrderDetailDisplay.jsp */
+#orderConfirmationHeader {
+  display: none;
+}
+/* OrderShipmentDetails.jsp */
+.gift_section {
+  border: 1px solid #E5E5E5;
+  clear: both;
+  margin-bottom: 8px;
+}
+.gift_section_content {
+  margin: 0 auto;
+  padding: 8px;
+}
+.gift_section_content.fixed_height {
+  height: 220px;
+}
+/* Right navigation for wish list */
+#right_nav {
+  width: 33.333333%;
+  float: right;
+}
+@media (max-width: 800px) {
+  #right_nav {
+    width: 100%;
+  }
+}
+/* Personal Wish List
+-------------------------------------------------------------------
+*/
+#wishlist {
+  margin-left: 10px;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #59677d;
+  border: 3px solid #e7e7e7;
+}
+@media (max-width: 800px) {
+  #wishlist {
+    margin-left: 0;
+  }
+}
+#wishlist .header {
+  padding: 6px 4px 4px 8px;
+}
+#wishlist .header_text {
+  padding: 6px 0px 0px 0px;
+  line-height: 14px;
+}
+#wishlist .contents {
+  background: none;
+  background-repeat: repeat-y;
+  padding: 6px 4px 8px 8px;
+}
+.required-field_wishlist {
+  width: 8px;
+  color: #d90101;
+  position: relative;
+  top: 2px;
+}
+.wishlist_side_space {
+  padding-left: 0px;
+}
+.my_account_wishlist {
+  width: 66.666666%;
+  float: left;
+  font-size: 14px;
+}
+@media (max-width: 800px) {
+  .my_account_wishlist {
+    width: 100%;
+  }
+}
+.my_account_shared_wishlist {
+  font-size: 14px;
+}
+.my_account_shared_wishlist #WishlistDisplay_Widget .body588 {
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+}
+.my_account_shared_wishlist #WishlistDisplay_Widget #four-grid-wishlist {
+  padding-left: 10px;
+}
+.shared_wishlist_title {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.my_account_wishlist_container {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px;
+}
+.my_account_wishlist .deleteLink,
+my_account_wishlist .deleteLink a {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.my_account_wishlist .remove {
+  background: url("") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 7px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  vertical-align: middle;
+  width: 7px;
+  text-decoration: none;
+}
+.multiple_wishlist_actions_border {
+  padding-top: 7px;
+  padding-bottom: 12px;
+}
+.multiple_wishlist_link_divider {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 7px;
+}
+#box .body588 {
+  width: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.left_wishlist {
+  padding: 9px 0;
+  float: left;
+}
+#box .subheader_text {
+  font-size: 12px;
+  padding-left: 10px;
+}
+#box .my_account_wishlist #WishlistDisplay_Widget .divider_line_style {
+  background-color: #FFFFFF;
+  background-position: left;
+  clear: both;
+  height: 1px;
+  font-size: 0px;
+}
+#box .views_icon {
+  position: relative;
+  left: -10px;
+  top: 10px;
+}
+div#top_pagination,
+div .top_pagination {
+  padding: 5px 0;
+  border-left: solid 1px #e5e5e5;
+  border-right: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+}
+#getWidgetButton .subscribe_share_controls {
+  margin-top: -24px;
+  margin-right: 12px;
+  color: #777777;
+  overflow: hidden;
+  cursor: pointer;
+}
+#getWidgetButton .subscribe_share_controls > .text {
+  text-decoration: none;
+  line-height: 15px;
+  float: right;
+  color: #777777;
+}
+#getWidgetButton .subscribe_share_controls > .icon {
+  float: right;
+  margin-left: 4px;
+}
+/* MyAccount Breadcrumb
+-------------------------------------------------------------------
+*/
+#breadcrumb {
+  min-height: 30px;
+}
+#breadcrumb .title {
+  padding: 10px 0px 0px 0px;
+  margin: 10px 0;
+  font-size: 2em;
+}
+#breadcrumb .title h1 {
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: capitalize;
+  border-bottom: none;
+  color: #235aa9;
+}
+#breadcrumb .title h1 b {
+  font-weight: bold;
+}
+#breadcrumb .myaccount_breadcrumb {
+  display: block;
+}
+#breadcrumb .myaccount_title .divider {
+  color: #235aa9 !important;
+  vertical-align: 5%;
+}
+#breadcrumb .myaccount_title .current_breadcrumb {
+  color: #235aa9 !important;
+  font-size: 80%;
+  font-weight: bold;
+}
+/* Override .widget_product_listing classes in order to re-use the espot */
+.my_account_wishlist .widget_product_listing > .top {
+  width: 523px;
+}
+.my_account_wishlist .widget_product_listing > .top > .middle_tile {
+  width: 521px;
+}
+.my_account_wishlist .widget_product_listing > .middle {
+  width: 521px;
+}
+.my_account_wishlist .widget_product_listing > .middle > .left_border > .right_border > .content {
+  width: 521px;
+}
+.my_account_wishlist .widget_product_listing > .middle > .left_border {
+  width: 521px;
+}
+.my_account_wishlist .widget_product_listing > .middle > .left_border > .right_border {
+  width: 521px;
+}
+.my_account_wishlist .widget_product_listing > .bottom {
+  width: 523px;
+}
+.my_account_wishlist .widget_product_listing > .bottom > .middle_tile {
+  width: 521px;
+}
+.my_account_wishlist .product_listing_container .grid_mode > .row > .product {
+  width: 173px;
+}
+.clear_both {
+  clear: both;
+}
+/* Wishlist tables */
+.my_account_shared_wishlist #horizontal_grid {
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.my_account_shared_wishlist #horizontal_grid div.item_container div.divider_line {
+  border-top: 1px solid #E5E5E5;
+}
+.my_account_shared_wishlist #horizontal_grid div.item_container div.information {
+  width: 400px;
+}
+.my_account_shared_wishlist #horizontal_grid div.item_container div.information p {
+  width: 400px;
+  font-size: 12px;
+}
+#horizontal_grid div.item_container_divider div.divider_line {
+  border-top: 1px solid #E5E5E5;
+}
+#horizontal_grid div.item_container {
+  min-height: 106px;
+}
+#horizontal_grid {
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+#horizontal_grid div.item_container > div[id^="baseContent_soaWishList_"] {
+  width: 94px;
+  height: 94px;
+  text-align: center;
+  float: left;
+}
+#horizontal_grid div.item_container > div > a > img {
+  height: 100%;
+}
+#horizontal_grid div.item_container td {
+  padding: 3px 0px;
+  vertical-align: top;
+}
+#horizontal_grid div.item_container div.image {
+  padding: 2px 0px 2px 5px;
+  text-align: center;
+  width: 90px;
+}
+#horizontal_grid div.item_container td.information {
+  width: 71%;
+}
+#horizontal_grid div.item_container td.information p {
+  font-size: 12px;
+}
+#horizontal_grid div.item_container td.information h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 7px;
+  color: #4d4d4d;
+}
+#horizontal_grid div.item_container td.price {
+  font-weight: bold;
+  text-align: right;
+  width: 15%;
+  white-space: nowrap;
+}
+#horizontal_grid div.item_container td.price span.price {
+  font-weight: bold;
+  text-align: right;
+  white-space: nowrap;
+}
+#horizontal_grid div.item_container td.price .price {
+  /*fix Japanese YEN */
+
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+#horizontal_grid div.item_container td.add_to_cart {
+  text-align: right;
+  width: 35%;
+  padding-left: 5px;
+}
+.listPrice {
+  /*fix Japense YEN */
+
+  font-family: arial, helvetica, sans-serif;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+td.item .listPrice {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+/* Workaround for large font issues on IE7 */
+/* Pagination for shopping cart */
+.pagination {
+  padding: 8px;
+}
+.pagination .pager {
+  margin-left: 28px;
+}
+.pagination .pager span {
+  min-width: 24px;
+  border: 1px solid #e0e0e0;
+  padding: 4px;
+}
+.pagination .pager span.counter {
+  border-color: transparent;
+}
+.pagination .pager span.fa {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin: 0 2px;
+  opacity: 0.4;
+}
+.pagination .pager span.fa.fa-angle-left {
+  padding-left: 8px;
+}
+.pagination .pager span.fa.fa-angle-right {
+  padding-left: 10px;
+}
+.pagination .pager a:hover span,
+.pagination .pager a.tlignore span,
+.pagination .pager a.selected span {
+  background-color: #4fabff;
+  border-color: #c7c7c7;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.pagination .pager a.tlignore span,
+.pagination .pager a.selected span {
+  opacity: 0.8;
+}
+.pagination.centered .pageSize {
+  padding: 8px 4px;
+  display: block;
+  text-align: center;
+}
+.pagination.centered .pager {
+  display: block;
+  text-align: center;
+}
+/* Recurring order popup */
+/* Recurring order area on shipping and billing page */
+/* CouponWalletDisplay.jsp, CouponWalletTable.jsp
+-------------------------------------------------------------------
+*/
+/* A div to hold the entire couponWallet jsp so that it can be aligned on the page differently in the My Account section. */
+.couponWalletContainer {
+  float: left;
+  width: 700px;
+}
+/* Override definition below since this table is shared between My Coupons and Shopping cart pages */
+.couponWalletContainer .couponWalletTable_couponName {
+  width: 423px;
+}
+/* Override definition below since this table is shared between My Coupons and Shopping cart pages */
+.couponWalletContainer .couponWalletTable_expirationDate {
+  width: 151px;
+}
+/* Override since this table is shared between My Coupons and Shopping cart pages */
+#WC_ShopCartDisplay_div_5 #couponWalletTable th,
+#WC_ShipmentDisplay_div_18 #couponWalletTable th {
+  height: 28px;
+}
+/* Override since this table is shared between My Coupons and Shopping cart pages */
+#WC_ShopCartDisplay_div_5 #couponWalletTable .button_text,
+#WC_ShipmentDisplay_div_18 #couponWalletTable .button_text {
+  width: 39px;
+}
+/* A div which adds a top border on the checkout page. */
+#couponWalletTopBorder {
+  border-top: 1px solid #C9D3DE;
+  float: right;
+  margin-top: 10px;
+  width: 100%;
+}
+/* The coupon wallet table */
+#couponWalletTable {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* The header columns of the coupon wallet table */
+#couponWalletTable th {
+  text-align: left;
+  padding-left: 7px;
+  border-bottom: 1px solid #C9D3DE;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+}
+/* The table dimensions of the coupon wallet table */
+#couponWalletTable td {
+  border-bottom: 1px dotted #C9D3DE;
+  padding: 6px 7px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+/* The coupon name column of the coupon wallet table */
+.couponWalletTable_couponName {
+  width: 247px;
+  word-break: break-word;
+}
+.couponWalletTable_couponName a {
+  font-size: 12px;
+}
+/* The expiration date column of the coupon wallet table */
+.couponWalletTable_expirationDate {
+  width: 131px;
+  word-break: break-word;
+  color: #4d4d4d;
+}
+.couponWalletTable_buttonColumn {
+  width: 88px;
+}
+.couponWallet_NoCouponsMessage {
+  padding-top: 7px;
+  font-size: 12px;
+}
+/* Scheduled Orders
+-------------------------------------------------------------------
+*/
+/* Cancel Subscription Popup */
+.cancel_subscription_popup {
+  width: 325px !important;
+}
+.cancel_subscription_popup h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.cancel_subscription_popup .top_right,
+.cancel_subscription_popup .footer .bot_right {
+  background-position: right center;
+  width: 317px !important;
+}
+.cancel_subscription_popup .header {
+  background-image: url("");
+  background-repeat: repeat-y;
+  text-align: right;
+  clear: left;
+}
+.cancel_subscription_actions_border {
+  padding-top: 7px;
+  padding-bottom: 12px;
+}
+.cancel_subscription_popup .bodycontent {
+  background-repeat: repeat-y;
+  padding: 0 25px 0px 25px;
+}
+.cancel_subscription_popup .footer {
+  text-align: right;
+  height: 14px;
+  width: 325px;
+}
+/* Tabs for Scheduled Order Details
+-------------------------------------------------------------------
+*/
+/* Scheduled Order details
+-------------------------------------------------------------------
+*/
+#scheduleOrderInputSection .scheduleOrderAreaInterval {
+  clear: left;
+  float: left;
+  padding: 10px 55px 5px 0px;
+  width: 120px;
+  font-size: 12px;
+  color: #777777;
+}
+#scheduleOrderInputSection .scheduleOrderAreaStartDate {
+  float: left;
+  width: 176px;
+  padding: 10px 5px 5px 0px;
+  position: relative;
+  font-size: 12px;
+  color: #777777;
+}
+#scheduleOrderInputSection .scheduleOrderAreaNextDelivery {
+  float: left;
+  width: 176px;
+  padding: 10px 5px 5px 0px;
+  position: relative;
+}
+#scheduleOrderInputSection .title {
+  font-weight: bold;
+}
+#mainTabContainer_tablist {
+  display: none;
+}
+/* Recurring Orders Table */
+.order_status_table.scheduled_orders .order_number_column {
+  width: 15%;
+}
+.order_status_table.scheduled_orders .order_scheduled_column {
+  width: 15%;
+}
+.order_status_table.scheduled_orders .next_order_column {
+  width: 15%;
+}
+.order_status_table.scheduled_orders .order_status_column_history {
+  width: 35%;
+}
+.order_status_table.scheduled_orders .order_status_column {
+  width: 10%;
+}
+.order_status_table.scheduled_orders .total_price_column {
+  text-align: right;
+  width: 10%;
+}
+.order_content {
+  color: #CA4200;
+}
+/* Store locator page
+-------------------------------------------------------------------
+*/
+/* QuickOrderForm.jsp
+-------------------------------------------------------------------
+*/
+#quick_order {
+  padding: 11px;
+  white-space: normal;
+  line-height: 1.4;
+  font-size: 12px;
+}
+#quick_order .line_number {
+  float: left;
+  padding: 8px 5px 0px 5px;
+  width: 15px;
+}
+#quick_order .input_form {
+  float: left;
+}
+#quick_order .error_text {
+  color: #CA4200;
+}
+#quick_order .headers {
+  padding-bottom: 8px;
+}
+#quick_order .img {
+  float: right;
+  padding-right: 8px;
+}
+#quick_order .order_button {
+  float: left;
+  padding-left: 20px;
+}
+#quick_order .input_form .QTY {
+  float: left;
+  border-bottom: solid 1px #c9d3de;
+  padding-right: 20px;
+  width: 45px;
+}
+#quick_order .input_form .SKU {
+  float: left;
+  border-bottom: solid 1px #c9d3de;
+  padding-left: 19px;
+  width: 197px;
+}
+#quick_order .input_form .input .SKU_field {
+  width: 176px;
+  margin-right: 7px;
+}
+#quick_order .input_fields {
+  padding-top: 5px;
+}
+#content710 {
+  float: left;
+  padding-top: 1px;
+}
+/* Rename widget_home_espots_right for quick order page due to lack of space */
+.quick_order_widget_home_espots_right {
+  float: right;
+  width: 181px;
+}
+/* Down down (Selection boxes)
+-------------------------------------------------------------------
+*/
+.drop_down_payment_method {
+  height: 23px;
+  padding: 2px 0px 1px 0px;
+  margin-bottom: 9px;
+}
+.drop_down_checkout {
+  height: 23px;
+  padding: 1px;
+  border: 1px solid #BFBFBF;
+  margin-bottom: 9px;
+  width: 185px;
+}
+.drop_down_shipping,
+.drop_down_billing,
+.drop_down_address_book {
+  height: 36px;
+  padding: 1px;
+  margin-right: 10px;
+  min-width: 220px;
+}
+.drop_down_country {
+  /*height:23px;*/
+
+  padding: 1px;
+  margin-bottom: 10px;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  /*border:1px solid #BFBFBF;*/
+
+}
+/* Accessibility hide title */
+.dijitDialogTitleBar {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+@media (max-width: 793px) {
+  .top_border {
+    float: none;
+  }
+  #customers_new_or_returning .new,
+  #customers_new_or_returning .returning {
+    float: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+  #customers_new_or_returning .returning {
+    border-left: none;
+    border-top: 2px dotted #e5e5e5;
+  }
+  #customers_new_or_returning .new_returning_button {
+    position: static;
+  }
+}
+/*SOLEMTI*/
+.checkoutPageLayout .wrapper-narrow{max-width: 1270px}
+.txt1,.txt2,.txt3{display: inline-block;width: 100%;font-weight: 500;color: #808080}
+.txt1{font-size: 15px;}
+.txt2{font-size: 22px;color: #0755b3;margin-top: 20px;font-weight: bold;}
+.txt3{font-size: 15px;font-weight: bold;}
+.black{color: black;}
+.nodisplayimp{display: none !important;}
+.checkoutPageLayout #paymentMethod_Checkout li input[type="checkbox"] + label{-webkit-appearance: none;background-color: white;border: 1px solid #6b6b6b;box-shadow: 0 1px 2px rgba(0,0,0,0.05),inset 0 -15px 10px -12px rgba(0,0,0,0.05);padding: 6px;border-radius: 50px;display: inline-block;position: relative;top: 2px;margin-left: 0;margin-bottom: 0;}
+.checkoutPageLayout #paymentMethod_Checkout li input[type="checkbox"] + label:after{content: ' ';width: 6px;height: 6px;border-radius: 50px;position: absolute;top: 3px;background: transparent;box-shadow: inset 0 0 10px rgba(0,0,0,0);text-shadow: 0;left: 3px;font-size: 32px;}
+.checkoutPageLayout #paymentMethod_Checkout li input[type="checkbox"]:checked + label:after{background: #0076b7;box-shadow: none;}
+.checkoutPageLayout #paymentMethod_Checkout .payment li input[type="checkbox"]{cursor: pointer;opacity: 0;position: absolute;z-index: 2;left: 0px;top: 4px;width: 13px;height: 16px;}
+.checkoutPageLayout #credit_coppel_checkout h3{font-size: 15px;font-weight: 500;padding: 0;margin: 0;line-height: 23px}
+.checkoutPageLayout #credit_coppel_checkout h3:before{content: '';}
+.checkoutPageLayout .coppel_calculator{    margin-top: 22px;width: 45%;float: left;}
+.checkoutPageLayout .coppel_calculator #show_pagoInicialCheckOut .txt3{margin-bottom: 16px;}
+.checkoutPageLayout #show_pagoInicialCheckOut #initialmentPayment1_1{width: 117px;height: 31px;border: 2px solid #e8e8e8;box-sizing: border-box;font-weight: bold;text-align: center;padding-left: 32px;color: #7c7c7c;padding-right: 32px;float: left;margin-top: 6px;}
+.btn1Co{background: #006eae;
+background: -moz-linear-gradient(top,  #0077b5 0%,  #0061a4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0077b5 0%,#0061a4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0077b5 0%,#0061a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077b5', endColorstr='#0061a4',GradientType=0 ); /* IE6-9 */
+color: white;padding: 10px 65px;font-size: 17px;border: 2px solid #00569e;height: 37px;border-radius: 4px;line-height: 13px;box-sizing: border-box;display: inline-block;font-weight: 300;transition: all 0.3s ease 0s}
+.btn1Co:hover{background-color: #045e9a ;background: -moz-linear-gradient(top,  #045e9a 0%,  #045e9a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #045e9a 0%,#045e9a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #045e9a 0%,#045e9a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#045e9a', endColorstr='#045e9a',GradientType=0 ); /* IE6-9 */}
+.checkoutPageLayout #calcular{display: inline-block;margin-left: 23px;float: left;}
+.checkoutPageLayout #attributes_CoppelClienteNumber_Checkout{float: left;width: 55%;}
+.checkoutPageLayout #attributes_CoppelClienteNumber_Checkout .payment_container{border:none;padding: 0;margin-left: 72px;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .title{margin: 0 0 20px 0px;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .options:before{content: " ";}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container h3{background-color: transparent;padding: 0;margin: 11px 0 0 0px;font-size: 15px;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .payment{padding: 0;margin: 35px 0 0 0;}
+.checkoutPageLayout #paymentArea2 .payment_container{border: none;margin-top: 60px;padding:0 0 22px 0;}
+.checkoutPageLayout .payment li span{color: #6b6b6b;margin-left: 5px;}
+.checkoutPageLayout .credit-coppel_payment #paymentArea2 .payment_container .title{background-color: #f3f3f3;padding: 16px 17px;color: #565656;font-weight: bold;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .payment > li{margin-bottom: 50px;}
+.checkoutPageLayout .billing .credit-coppel_payment .payment_container .payment > li:last-child{margin-bottom: 0;}
+.checkoutPageLayout .payment_options #WC_PayPal_div_1 .title label{font-weight: normal;color: #6f6f6f;width: 240px;}
+.checkoutPageLayout #PayPal_CO .button_primary>.button_text{background: none;border: 0}
+.checkoutPageLayout #PayPal_CO .button_primary>.button_text{width: 240px;transition: all 0.3s ease 0s;font-size: 17px}
+.checkoutPageLayout #PayPal_CO .button_primary>.button_text:hover{background-color: #045e9a ;}
+.checkoutPageLayout #VISA_checkout{width: 242px;}
+.checkoutPageLayout #VISA_checkout a,.checkoutPageLayout #VISA_checkout img{width: 100%;}
+.checkoutPageLayout #VISA_checkout img{max-width: 242px}
+.checkoutPageLayout #VISACo_knowmore{font-weight: bold;text-decoration: underline;color: #0596eb;font-size: 15px;text-align: right;margin-top: -5px}
+.checkoutPageLayout .payment_options #VISA_checkout #WC_PayPal_div_1 p.title.sub_header{text-align: center;}
+.checkoutPageLayout .payment_options #VISA_checkout #WC_PayPal_div_1 p.title.sub_header label{font-weight: normal;width: 100%;margin-right: 0;margin-top: 12px;}
+.checkoutPageLayout .billing .card_payment .payment_container{background-color: transparent;border: none;box-shadow: none;}
+.checkoutPageLayout #MasterCard_CheckOut,.checkoutPageLayout #contTarjetasCreditoPaypal{padding: 0;}
+.checkoutPageLayout .marcas_tarjetas{width: 100%;max-width: 222px;float: left;margin-left: 87px;margin-top: 28px;}
+.checkoutPageLayout .billing .card_info .payment_container .content{padding: 0;}
+.checkoutPageLayout .billing .card_payment dl,
+.checkoutPageLayout .billing .card_info dl input{width: 100%;text-align: left}
+.checkoutPageLayout .billing .card_payment dl:last-child{margin-bottom:0;}
+.checkoutPageLayout .billing .card_info dl input,.checkoutPageLayout .billing .card_info dl select{display: inline-block;border: solid 2px #e8e8e8;border-radius: 0;font-size: 14px;background: white;color: #aaaaaa;padding: 7px 10px;box-sizing: border-box;-webkit-border-radius: 0px 0px 0px 0px;-moz-border-radius: 0px 0px 0px 0px;-ms-border-radius: 0px 0px 0px 0px;-o-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;-o-appearance: none;}
+.checkoutPageLayout .billing .card_info dl select{background: url("");background-repeat: no-repeat;background-size: 14px;background-position: center right 10px;width: 100%;cursor: pointer;}
+.checkoutPageLayout .billing .card_info dl select:first
+.checkoutPageLayout .billing .card_payment dl{width: 100%;margin-top:-2px}
+.checkoutPageLayout .billing .card_info dl label{font-size: 14px;color: #808080;margin-bottom: 7px;vertical-align: middle;}
+.checkoutPageLayout .billing .card_payment dl.date div{width: 48.2%;padding: 0;margin: 0;float: left;}
+.checkoutPageLayout .billing .card_payment dl.date div:last-child{float:right;}
+.checkoutPageLayout .cvvIcon{width: 22px;display: inline-block;vertical-align: middle;}
+.checkoutPageLayout .contLeftTc{width: 43.3%;}
+.checkoutPageLayout .contCheckCo{position: relative;float: left;margin-left: 10px;margin-top: 18px;}
+.checkoutPageLayout .button_footer_line input[type="checkbox"] + label{ -webkit-appearance: none !important;background-color: white !important;border: 1px solid #6b6b6b !important;padding: 6px !important;border-radius: 4px !important;display: inline-block !important;position: relative !important;top: 2px !important;width: 15px;height: 15px}
+.checkoutPageLayout .button_footer_line input[type="checkbox"] + label:after{content: ' ' !important;width: 6px!important;height: 6px !important;border-radius: 1px !important;position: absolute !important;top: 2px !important;background: url("") !important;left: 2px !important;font-size: 32px !important;}
+.checkoutPageLayout .button_footer_line input[type="checkbox"]:checked + label:after{background: url("") !important;box-shadow: none !important;width: 10px !important;height: 10px !important;background-repeat: no-repeat !important;background-size: 82% !important;}
+.checkoutPageLayout .button_footer_line input[type="checkbox"]{cursor: pointer !important;opacity: 0 !important;position: absolute !important;z-index: 2 !important;left: 1px !important;top: 3px !important;width: 13px !important;height: 16px !important;}
+.checkoutPageLayout .billing .card_info dl{margin-bottom: -2px;}
+.checkoutPageLayout .billing .card_info dl:first-child{margin-bottom: 12px;}
+.checkoutPageLayout .billing .card_payment dl.ccv dd{width: 48%}
+.checkoutPageLayout .marcas_tarjetas2{width: 100%;max-width: 190px;float: left;margin-left: 102px;margin-top: 20px;}
+.checkoutPageLayout #paymentArea1 #paymentArea2 .payment_container{margin-top: 15px;padding: 0;}
+.checkoutPageLayout .payment li #paymentArea2 span{margin-left:0;}
+.checkoutPageLayout .billing #paymentArea1 .credit-coppel_payment .payment_container .payment{padding-left: 9px;}
+.checkoutPageLayout .contPaypal1{padding: 14px 10px;background-color: #f5f5f5;border-radius: 4px;border: 2px solid #dedede;float: left;width: 100%;text-align: left}
+.checkoutPageLayout .imgPoweredPaypal{width: 92px;float: right;margin-bottom: 5px;}
+.checkoutPageLayout .txtTc{display: inline-block;width: 100%;margin-bottom: 13px;color: #828d96;}
+.checkoutPageLayout .imgTarjetasCreditoPaypal{width: 100%;max-width: 165px;text-align: left;margin-bottom: 6px;display: inline-block;}
+.checkoutPageLayout .imgTarjetasDebitoPaypal{width: 100%;max-width: 537px;text-align: left;display: inline-block;}
+.checkoutPageLayout .contPaypal2{float: left;width: 100%;margin-top: 8px;text-align: left}
+.checkoutPageLayout #contTarjetasCreditoPaypal .noTarjetaPaypal{width: 100%;border-radius: 4px;box-sizing: border-box;height: 36px;color: #aca1ab;background: url("");background-repeat: no-repeat;background-position: center right 2px;background-size: 44px;}
+.checkoutPageLayout .select2{appearance: none;-webkit-appearance: none;-moz-appearance: none;-o-appearance: none;-ms-appearance: none;float: left;max-width: 192px;width: 100%;border: 2px solid #dbdbdb;min-width: auto;background: url("");background-repeat: no-repeat;background-size: 14px;background-position: center right 19px;cursor: pointer;height: 36px;border-radius: 4px;width: 48%}
+.checkoutPageLayout .select2:last-child{position: relative;left: -2px}
+.checkoutPageLayout .txtpp1{font-weight: bold;font-size: 15px;display: inline-block;width: 100%;margin: 10px 0 6px 0;}
+.checkoutPageLayout input[type="text"].cvvpp{width: 100%;border-radius: 4px;height: 36px;color: #aca1ab;background: url("");background-repeat: no-repeat;background-position: center right 2px;background-size: 44px;}
+.checkoutPageLayout input:focus,.checkoutPageLayout select:focus{outline: none !important;-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;-o-box-shadow: none;-ms-box-shadow: none;border: 2px solid #e0e0e0;}
+.checkoutPageLayout .contCheckboxPoliticas span{margin-left: 6px;}
+.checkoutPageLayout .contCantPreciopp{float: left;width: 100%;padding: 12px;background: #dddddd;height: auto;border-radius: 4px;box-sizing: border-box;font-size: 15px;color: #777779;line-height: 18px;margin-top: 10px;font-weight: 500;margin-bottom: 15px}
+.checkoutPageLayout .contCheckboxPoliticas{width: 100%;display: inline-block;font-weight: bold;margin-bottom: 10px;position: relative;font-size: 14px}
+.checkoutPageLayout .contPoliticas{clear: left}
+.checkoutPageLayout .contPoliticas .contCheckboxPoliticas:last-child{margin: 0 0 20px 0;}
+.checkoutPageLayout .contPoliticas input[type="checkbox"] + label{ -webkit-appearance: none !important;background-color: white !important;border: 1px solid #6b6b6b !important;padding: 6px !important;border-radius: 4px !important;display: inline-block !important;position: relative !important;top: 2px !important;}
+.checkoutPageLayout .contPoliticas input[type="checkbox"] + label:after{content: ' ' !important;width: 6px!important;height: 6px !important;border-radius: 1px !important;position: absolute !important;top: 2px !important;background: url("") !important;left: 2px !important;font-size: 32px !important;}
+.checkoutPageLayout .contPoliticas input[type="checkbox"]:checked + label:after{background: url("") !important;box-shadow: none !important;width: 10px !important;height: 10px !important;background-repeat: no-repeat !important;background-size: 82% !important;}
+.checkoutPageLayout .contPoliticas input[type="checkbox"]{cursor: pointer !important;opacity: 0 !important;position: absolute !important;z-index: 2 !important;left: 1px !important;top: 3px !important;width: 13px !important;height: 16px !important;}
+.checkoutPageLayout .contPoliticaspp{font-size: 15px;border-bottom-left-radius: 4px;border-bottom: 2px solid #f8f8f8;border-bottom-right-radius: 4px;margin-bottom: 26px;}
+.checkoutPageLayout .contPoliticaspp > span > span a {color: #62a9d4;}
+.checkoutPageLayout .contPoliticaspp > span > span a:hover{text-decoration: underline;}
+.checkoutPageLayout #VISA_checkout_mercadoPago,.checkoutPageLayout #paymentArea1 #paymentArea2 #VISA_checkout_mercadoPago{width: 100%;border: 1px solid #999999;padding: 19px 21px;margin-top: 10px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1{margin: 0;padding: 0}
+.checkoutPageLayout .cont_VISA_checkout_mercadoPago1,.checkoutPageLayout .cont_VISA_checkout_mercadoPago{width: 50%;float: left;}
+.checkoutPageLayout .imglogoVisaMercadoPago,.checkoutPageLayout .imglogoVisaMercadoPago1{display: inline-block;vertical-align: middle;width: 51px;height: 31px;}
+.checkoutPageLayout .imglogoVisaMercadoPago{margin-left: 16px;}
+.checkoutPageLayout .contLogotxtVisaMercadoPago{margin-bottom: 22px;}
+.checkoutPageLayout .contLogotxtVisaMercadoPago > span{margin-left: 15px;color: #000;position: relative;top: 2px}
+.checkoutPageLayout .cvvIcon{margin-bottom: 5px;}
+.checkoutPageLayout .inputTdcVisaMp{width: 100%;max-width: 282px;padding: 0 15px;height: 46px;color: #9a9a9a;color: black;border: 1px solid #999;-webkit-appearance: none;border-radius: 0}
+.checkoutPageLayout .contTxtsTdcMp .contTxtTdcMp span{display: inline-block;width: 100%;}
+.checkoutPageLayout .contTxtsTdcMp .contTxtTdcMp:first-child{margin: 15px 0 20px 0;}
+.checkoutPageLayout .linksCheckout2{font-weight: bold;text-decoration: underline;color: #005ca7;font-size: 15px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .contvisaMercadoPago{border: 1px solid #999999;padding: 20px 18px;margin-bottom: 28px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .contvisaMercadoPago:last-child{margin-bottom: 10px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .billing .card_payment .payment_container{margin: 0;padding: 0;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .contCheckCo{margin-left: 0;margin-top: 5px}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 input[type="checkbox"] + label{-webkit-appearance: none;background-color: white;border: 1px solid #6b6b6b;box-shadow: 0 1px 2px rgba(0,0,0,0.05),inset 0 -15px 10px -12px rgba(0,0,0,0.05);padding: 6px;border-radius: 50px;display: inline-block;position: relative;top: 2px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 input[type="checkbox"] + label:after{content: ' ';width: 6px;height: 6px;border-radius: 50px;position: absolute;top: 3px;background: transparent;box-shadow: inset 0 0 10px rgba(0,0,0,0);text-shadow: 0;left: 3px;font-size: 32px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 input[type="checkbox"]:checked + label:after{background: #0076b7;box-shadow: none;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 input[type="checkbox"]{cursor: pointer;opacity: 0;position: absolute;z-index: 2;left: 0px;top: 4px;width: 13px;height: 16px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .contLogotxtVisaMercadoPago{margin-bottom: 0;}
+.checkoutPageLayout .contCvvVisaMercadoPago .txtcvv2{color: #808080;display: block}
+.checkoutPageLayout #PayPal_CO{margin-top: 25px;}
+.checkoutPageLayout #VISA_checkout_mercadoPago1 .contvisaMercadoPago.selected .contLogotxtVisaMercadoPago{margin-bottom: 22px;}
+.checkoutPageLayout .deleteCard{border: solid 3px #ff0000;float: right;text-align: center;margin: 0;width: 23px;height: 23px;border-radius: 50%;font-size: 15px;line-height: 15px}
+.checkoutPageLayout .deleteCard:before{color: #ff0000;}
+.checkoutPageLayout .shopping_cart_box #VISA_checkout_mercadoPago1 .button_footer_line{float: inherit;padding: 0 0 20px 0;margin-top: 10px;}
+.checkoutPageLayout .txtBtnPaypal{width: 240px;margin-top: 10px;text-align: center;font-size: 15px}
+.checkoutPageLayout .contTxtsTdcMp .contTxtTdcMp span,.contLogotxtVisaMercadoPago span {color: #000 !important;}
+.checkoutPageLayout #VISA_checkout_mercadoPago .imglogoVisaMercadoPago{margin-left: 0;}
+.checkoutPageLayout #paymentArea2 #VISA_checkout_mercadoPago .contLogotxtVisaMercadoPago > span{margin-left: 15px;}
+.checkoutPageLayout .cantidadMayorEfectivo{color: red !important;font-weight: bold;font-size: 14px;}
+.checkoutPageLayout .btnDisabled{background: #a2a2a2 !important;border: none !important;}
+.checkoutPageLayout .borderMsj{border-top:17px solid #005ea5;border-top-right-radius: 4px;border-top-left-radius: 4px;}
+.checkoutPageLayout .message-display .error_icon{display: block !important;width: 30px;margin-right: 12px;margin-top: 15px;float: right;}
+.checkoutPageLayout .message_text{padding: 57px 31px 0;color: #000;}
+.checkoutPageLayout .button_footer_line{padding-right: 32px;}
+.checkoutPageLayout #ErrorMessageText{width: 100%;display: inline-block;font-size: 23px;}
+.checkoutPageLayout .message-display{border: 0 !important;}
+.checkoutPageLayout .message-display .right{float: right}
+.checkoutPageLayout .message_text{color: #111;width: 100%;display: inline-block;padding: 20px 30px 40px;line-height: 32px}
+.checkoutPageLayout #msgpopup_content_wrapper .button_primary>.button_text{height: 51px;}
+.checkoutPageLayout .title_empleado{font-size: 30px;color: #005ca7;font-weight: 500;}
+.checkoutPageLayout #clientName{display: inline-block;font-weight: bold;}
+.checkoutPageLayout .billing #empleadoPpTdc .credit-coppel_payment .payment_container{border:none;padding-top: 0;margin-top: 0;}
+.checkoutPageLayout .lsitadoEmpleado{margin-top: 22px;}
+.checkoutPageLayout .lsitadoEmpleado li{width: 33%;float: left;}
+.checkoutPageLayout .txt1E{color: #000;}
+.checkoutPageLayout #notifyMsg{padding: 0;margin: 30px 0 0 0;background: none;border: none;font-size: 15px;font-weight: bold;}
+.checkoutPageLayout #payment_containerData{padding: 0;}
+.checkoutPageLayout #payment_containerData .lsitadoEmpleado{margin-top: 10px;text-align: left}
+.checkoutPageLayout .lsitadoEmpleado li > input {border-radius: 4px;border: 2px solid #999999;margin-top: 3px;width: 120px;color: #000;background: transparent;font-weight: bold !important;font-size: 15px;}
+.checkoutPageLayout .shopping_cart_box #MasterCard_CheckOut .button_footer_line{margin-top: 0px;}
+.checkoutPageLayout .seccionMetodoPago{padding-left: 18px;}
+.checkoutPageLayout .subtitleMp{padding-top: 12px;font-weight: normal;color: #808080;display: inline-block;}
+.checkoutPageLayout #step_01{margin-bottom: 10px;text-align: left}
+.checkoutPageLayout #paymentSection2 #paymentArea2 #PayPal_CO.payment_container{float: none;}
+.checkoutPageLayout #cc_cvc{width: 48.2%;}
+.checkoutPageLayout .contEmpleadop1{padding-left: 4px !important;}
+.checkoutPageLayout .contEmpleadop1 .contCheckCo{margin-top: 10px}
+.checkoutPageLayout .contEmpleadop1 #cc_cvc{width: 100%}
+.checkoutPageLayout .contEmpleadop2{margin-top: 12px;}
+.checkoutPageLayout #MasterCard_CheckOut .button_footer_line{padding-left: 12px;}
+.pm{padding: 0;margin:0;}
+.underline{text-decoration: underline;}
+.checkoutPageLayout #contTarjetasCreditoPaypal,#contEmpleadoMpVisaMc{padding-left: 0px !important;margin-top: 0 !important;}
+.checkoutPageLayout .shopping_cart_box .contPaypal2 .button_footer_line{margin-top: 0;padding-top: 0;}
+.checkoutPageLayout #paymentArea2 #PayPal_CO.payment_container {margin-top: 5px;padding-left: 16px;margin-bottom: 30px}
+.checkoutPageLayout #paymentArea2 #contEmpleadoMpVisaMc .payment_container,.checkoutPageLayout #contEmpleadoMpVisaMc .marcas_tarjetas2{margin-top: 52px;}
+.checkoutPageLayout #show_pagoInicialCheckOut{width: 100%;}
+.checkoutPageLayout #shippingBillingPageNext{margin-top: 10px;font-family: "Lato",sans-serif;font-weight: 300}
+.checkoutPageLayout.resumenCompra .payment_options{width: 66.3%;}
+.checkoutPageLayout.resumenCompra .billing_method p{line-height: 24px;}
+.checkoutPageLayout.resumenCompra #singleOrderSummary{font-size: 17px}
+.checkoutPageLayout.resumenCompra .billing_method{margin-bottom: 20px}
+.checkoutPageLayout.resumenCompra .title1{margin-top: 52px;display: inline-block;width: 100%;font-weight: bold;margin-bottom: 43px;font-size: 18px;}
+/*SOLEMTI*/
